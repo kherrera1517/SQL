@@ -14,7 +14,7 @@ CREATE TABLE Cards (
     name CHAR(55) NOT NULL,
     
     attribute CHAR(10) NOT NULL,
-    level_rank INT DEFAULT NULL,
+    level_rank_link INT DEFAULT NULL,
     scale INT DEFAULT NULL,
     type CHAR(10), -- type of monster (Beast, Fiend, Wyrm, etc.) or spell/trap type (continuous, counter, normal, etc.)
     
