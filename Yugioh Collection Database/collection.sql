@@ -1,4 +1,7 @@
-/* Collection of cards currently owned 
+/* Collection of cards currently owned.
+Created:
+Last Updated: 30/5/2017
+
 An instance of a card may contain the following attributes:
     
     id INT - bottom left of card
@@ -7,17 +10,19 @@ An instance of a card may contain the following attributes:
     attribute CHAR(10) NOT NULL - i.e. Spell/Trap/Wind/Fire
     level_rank_link INT DEFAULT NULL - level, rank, or link
     scale INT DEFAULT NULL - for pendulum monsters
-    type CHAR(10) - type of monster (i.e. Warrior) or spell/trap type (i.e. continuous)
+    type CHAR(10) - type of monster (i.e. Warrior) or spell/trap (i.e. continuous)
 
-    pendulum_effect CHAR(500) DEFAULT NULL,
-    description CHAR (500),
-    edition CHAR(10),
-    series CHAR(15),
+    pendulum_effect CHAR(500) DEFAULT NULL
+    description CHAR (500)  - effect or flavor text of card
+    edition CHAR(10) - i.e. 1st, Limited, Unlimited
+    series CHAR(15) - box set that card came in
     
-    atk INT DEFAULT NULL,
-    def INT DEFAULT NULL,
+    atk INT DEFAULT NULL - Attack of monster
+    def INT DEFAULT NULL - Defense of monster
     
-    effect BOOLEAN DEFAULT 0,
+    Additional types of monsters:
+    
+    effect BOOLEAN DEFAULT 0
     flip BOOLEAN DEFAULT 0,
     fusion BOOLEAN DEFAULT 0,
     link BOOLEAN DEFAULT 0,
@@ -28,10 +33,11 @@ An instance of a card may contain the following attributes:
     token BOOLEAN DEFAULT 0,
     xyz BOOLEAN DEFAULT 0,
 
-    rarity Char(12) DEFAULT "Common",
-    quantity INT,
+    rarity Char(12) DEFAULT "Common" - i.e. Super, Ultra, Parallel, etc.
+    artwork CHAR(15) DEFAULT "Regular" - artwork ordered depending on release time
+    quantity INT - amount of cards of this exact type owned
     
-    PRIMARY KEY (id)
+   PRIMARY KEY (id, name, rarity, artwork)
 */
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
