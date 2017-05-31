@@ -10,7 +10,7 @@ An instance of a card may contain the following attributes:
     attribute CHAR(10) NOT NULL - i.e. Spell/Trap/Wind/Fire
     level_rank_link INT DEFAULT NULL - level, rank, or link
     scale INT DEFAULT NULL - for pendulum monsters
-    type CHAR(10) - type of monster (i.e. Warrior) or spell/trap (i.e. continuous)
+    type CHAR(10) - type of monster (i.e. Warrior) or spell/trap (i.e. Normal)
 
     pendulum_effect CHAR(500) DEFAULT NULL
     description CHAR (500)  - effect or flavor text of card
@@ -34,34 +34,34 @@ An instance of a card may contain the following attributes:
     xyz BOOLEAN DEFAULT 0,
 
     rarity Char(12) DEFAULT "Common" - i.e. Super, Ultra, Parallel, etc.
-    artwork CHAR(15) DEFAULT "Regular" - artwork ordered depending on release time
+    artwork CHAR(15) DEFAULT "Regular" - artwork ordered by time of release
     quantity INT - amount of cards of this exact type owned
     
    PRIMARY KEY (id, name, rarity, artwork)
 */
 
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, rarity, quantity)
     VALUES (82946847, "Petiteranodon", "Earth", 2, "Dinosaur", "If this card is 
             destroyed by a card effect and sent to the Graveyard: Special 
             Summon 1 Level 4 or higher Dinosaur-Type monster from your Deck, 
             but it cannot attack this turn.", "1st", "SR04-EN000", 500, 500, 1,
             "Ultra", 3);
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, rarity, quantity)
     VALUES (18940556, "Ultimate Conductor Tyranno", "Light", 10, "Dinosaur",
-            "Cannot be Normal Summoned/Set. Must first be Special Summoned 
-            (from your hand) by banishing 2 Dinosaur-Type monsters from your 
-            Graveyard. Once per turn, during either player's Main Phase: You 
-            can destroy 1 monster in your hand or field, and if you do, change 
-            all face-up monsters your opponent controls to face-down Defense 
+            "Cannot be Normal Summoned/Set. Must first be Special Summoned (from 
+            your hand) by banishing 2 Dinosaur-Type monsters from your 
+            Graveyard. Once per turn, during either player's Main Phase: You can 
+            destroy 1 monster in your hand or field, and if you do, change all 
+            face-up monsters your opponent controls to face-down Defense 
             Position. This card can attack all monsters your opponent controls, 
             once each. At the start of the Damage Step, if this card attacks a 
             Defense Position monster: You can inflict 1000 damage to your 
             opponent, and if you do, send that Defense Position monster to the 
             Graveyard.", "1st", "SR04-EN001", 3500, 3200, 1, "Ultra", 3);
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, rarity, quantity)
     VALUES (44335251, "Souleating Oviraptor", "Dark", 4, "Dinosaur", "If this 
             card is Normal or Special Summoned: You can take 1 Dinosaur-Type 
             monster from your Deck, and either add it to your hand or send it
@@ -70,8 +70,8 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edit
             Dinosaur-Type monster from your Graveyard in Defense Position. You 
             can only use each effect of 'Souleating Oviraptor' once per turn.",
              "1st", "SR04-EN002", 1800, 500, 1, "Super", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, rarity, quantity)
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    rarity, quantity)
     VALUES (17228908, "Lost World", "Spell", "Field", "All monsters on the 
             field lose 500 ATK and DEF, except Dinosaur-Type monsters. Once per 
             turn, if a Dinosaur-Type monster is Normal or Special Summoned 
@@ -100,10 +100,10 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edit
             "1st", "SR04-EN003", 2000, 0, 1, 6);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, quantity)
-    VALUES (37265642, "Sabersaurus", "Earth", 4, "Dinosaur", "This normally 
-            gentle dinosaur enjoys relaing in its nest in the prairies. If it 
-            becomes angered, it turns terribly ferocious.", "1st", "SR04-EN004",
-            1900, 500, 6);
+    VALUES (37265642, "Sabersaurus", "Earth", 4, "Dinosaur", "This normally gentle 
+            dinosaur enjoys relaing in its nest in the prairies. If it becomes 
+            angered, it turns terribly ferocious.", "1st", "SR04-EN004", 1900, 500,
+            6);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, effect, quantity)
     VALUES (85520851, "Super Conductor Tyranno", "Light", 8, "Dinosaur", "Once 
@@ -119,22 +119,21 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edit
             "SR04-EN006", 3000, 2200, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, effect, quantity)
-    VALUES (06849042, "Super-Ancient Dinobeast", "Earth", 8, "Dinosaur", "You 
-            can Tribute Summon this card in face-up Attack Position by 
-            Tributing 1 Dinosaur-Type monster. When a Dinosaur-Type monster(s) 
-            is Special Summoned from your Graveyard (except during the Damage 
-            Step) while this monster is on the field: You can draw 1 card.",
-            "1st", "SR04-EN007", 2700, 1400, 1, 3);
+    VALUES (06849042, "Super-Ancient Dinobeast", "Earth", 8, "Dinosaur", "You can 
+            Tribute Summon this card in face-up Attack Position by Tributing 1 
+            Dinosaur-Type monster. When a Dinosaur-Type monster(s) is Special 
+            Summoned from your Graveyard (except during the Damage Step) while this 
+            monster is on the field: You can draw 1 card.", "1st", "SR04-EN007",
+            2700, 1400, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, effect, quantity)
-    VALUES (41753322, "Sauropod Brachion", "Earth", 8, "Dinosaur", "Cannot be
-            Special Summoned from the Deck. You can Tribute Summon this card
-            face-up by Tributing  1 Dinosaur-Type monster. Once per turn: You 
-            can change this card to face-down Defense Position. If this card is 
-            Flip Summoned: Change all other monsters on the field to face-down 
-            Defense Position. If this card is attacked, and battle damage your 
-            opponent takes from that battle is doubled.", "1st", "SR04-EN008", 
-            1500, 3000, 1, 3);
+    VALUES (41753322, "Sauropod Brachion", "Earth", 8, "Dinosaur", "Cannot be 
+            Special Summoned from the Deck. You can Tribute Summon this card face-up 
+            by Tributing  1 Dinosaur-Type monster. Once per turn: You can change 
+            this card to face-down Defense Position. If this card is Flip Summoned: 
+            Change all other monsters on the field to face-down Defense Position. If 
+            this card is attacked, and battle damage your opponent takes from that 
+            battle is doubled.", "1st", "SR04-EN008", 1500, 3000, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, effect, rarity, quantity)
     VALUES (83235263, "Tyranno Infinity", '', 4, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
@@ -143,13 +142,12 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edit
     VALUES (50896944, "Black Brachios", '', 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, effect, quantity)
-    VALUES (63259351, "Miracle Jurassic Egg", "Earth", 4, "Dinosaur", "While 
-            face-up on the field, this card cannot be banished. Each time a 
-            Dinosaur-Type monster(s) is sent to your Graveyard, place 2 counters
-            on this card. You can Tribute this card; Special Summon 1 Dinosaur-
-            Type monster from your Deck whoe Level is less than or equal to the 
-            number of coutners taht were on this card.", "1st", "SR04-EN011",
-            0, 2000, 1, 3);
+    VALUES (63259351, "Miracle Jurassic Egg", "Earth", 4, "Dinosaur", "While face-up 
+            on the field, this card cannot be banished. Each time a Dinosaur-Type 
+            monster(s) is sent to your Graveyard, place 2 counters on this card. You 
+            can Tribute this card; Special Summon 1 Dinosaur-Type monster from your 
+            Deck whoe Level is less than or equal to the number of coutners that 
+            were on this card.", "1st", "SR04-EN011", 0, 2000, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, effect, quantity)
     VALUES (45894482, "Gilasaurus", "Earth", 3, "Dinosaur", "You can Special
@@ -158,8 +156,17 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edit
                     series, atk, def, effect, rarity, quantity)
     VALUES (36042004, "Babycerasaurus", '', 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (38572779, "Miscellaneousaurus", '', 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    series, atk, def, effect, quantity)
+    VALUES (38572779, "Miscellaneousaurus", "Fire", 4, "Dinosaur", "During either 
+            player's Main Phase: You can send this card from your hand to the 
+            Graveyard; during this Main Phase, Dinosaur-Type monsters you control 
+            are unaffected by your opponent's activated effects. You can banish any 
+            number of Dinosaur-Type monsters from your Graveyard, including this 
+            card; Special Summon 1 Dinsaur-Type mosnter from your Deck with a Level 
+            equal to the total number of monsters banished to activate this effect, 
+            but destroy it during the End Phase. You can only use this effect of 
+            'Miscellaneousaurus' once per turn.", "1st", "SR04-EN00", 1800, 1000,
+            1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, effect, rarity, quantity)
     VALUES (04058065, "Evilswarm Salamandra", '', 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
@@ -229,3 +236,10 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edit
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, effect, rarity, quantity)
     VALUES (, "Jurraegg Token", '', 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
+                    series, atk, def, effect, quantity)
+    VALUES (11012887, "Jurrac Guaiba", "Fire", 4, "Dinosaur", "If this card destroys 
+            an opponenet's monster by battle, you can SPecial Summon 1 'Jurrac' 
+            mosnter with 1700 or less ATK from your Deck. It cannot declare an atack 
+            this turn.", "Duel Terminal", "DT03-EN068", 1700, 400, 1, 3);
