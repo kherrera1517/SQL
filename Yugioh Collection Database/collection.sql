@@ -1,5 +1,5 @@
 /* Collection of cards currently owned.
-Created:
+Created: 19/30/2017
 Last Updated: 30/5/2017
 
 An instance of a card may contain the following attributes:
@@ -40,6 +40,7 @@ An instance of a card may contain the following attributes:
    PRIMARY KEY (id, name, rarity, artwork)
 */
 
+/* Cards from Dinosmasher Structure Deck */
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
                     edition, series, atk, def, effect, rarity, quantity)
     VALUES (82946847, "Petiteranodon", "Earth", 2, "Dinosaur", "If this card is 
