@@ -92,12 +92,12 @@ INSERT INTO Cards (id, name, attribute, type, description, edition,
             can banish this card from your graveyard, then target 1 Dinosaur-
             Type monster you control and 1 card your opponent controls; destroy 
             them.", "1st", "SR04-EN030", "Super", 3);
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, rarity, quantity)
     VALUES (81823360, "Megalosmasher X", "Water", 4, "Dinosaur", "With its 
             sound-baffling armor and gargantuan jaws, this primeval predator's
-            phosphorescence was the only possible pardon for its primitive prey.",
-            "1st", "SR04-EN003", 2000, 0, 1, 6);
+            phosphorescence was the only possible pardon for its primitive 
+            prey.", "1st", "SR04-EN003", 2000, 0, 1, 6);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
                     series, atk, def, quantity)
     VALUES (37265642, "Sabersaurus", "Earth", 4, "Dinosaur", "This normally gentle 

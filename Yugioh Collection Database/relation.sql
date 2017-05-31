@@ -2,7 +2,8 @@
 drop table if exists Cards;
 
 
-/* Turn on some useful features: foreign constraint checking, and pretty-printing */
+/* Turn on some useful features: foreign constraint checking, and 
+    pretty-printing */
 .header on
 .mode column
 PRAGMA foreign_keys = ON; -- turns on checking for foreign keys constraints
@@ -13,10 +14,10 @@ CREATE TABLE Cards (
     id INT, -- number on bottom left corner of card
     name CHAR(55) NOT NULL, -- printed name of card
     
-    attribute CHAR(10) NOT NULL, -- located at top right corner of card (i.e. Spell, Fire, Water, etc.)
+    attribute CHAR(10) NOT NULL, -- i.e. Spell/Trap/Fire/Water/Light
     level_rank_link INT DEFAULT NULL,
     scale INT DEFAULT NULL, -- for pendulum monsters
-    type CHAR(10), -- type of monster (i.e. Warrior) or spell/trap (i.e. Continuous)
+    type CHAR(10), -- type of monster (i.e. Warrior) or spell/trap (i.e. Normal)
     
     pendulum_effect CHAR(500) DEFAULT NULL, -- for pendulum monsters
     description CHAR (500), -- flavor text or effect of card
