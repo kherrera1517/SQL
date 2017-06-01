@@ -250,9 +250,9 @@ INSERT INTO Cards (id, name, attribute, type, description, edition, series,
             Tributing.", "1st", "SR04-EN023", 3);
 INSERT INTO Cards (id, name, attribute, type, description, edition, series,
                     quantity)
-    VALUES (43898403, "Twin Twisters", "Spell", "Quick-Play", "Discard 1 card, then 
-            target up to 2 Spell/Trap Cards on the field; destroy them.", "1st",
-            "SR04-EN024", 3);
+    VALUES (43898403, "Twin Twisters", "Spell", "Quick-Play", "Discard 1 card, 
+            then target up to 2 Spell/Trap Cards on the field; destroy them.",
+            "1st", "SR04-EN024", 3);
 INSERT INTO Cards (id, name, attribute, type, description, edition, series,
                     quantity)
     VALUES (48976825, "Burial from a Different Dimension", "Spell", "Quick-
@@ -272,41 +272,80 @@ INSERT INTO Cards (id, name, attribute, type, description, edition, series,
             add 1 card with the same name as the card from your Deck to your 
             hand. You can only activate 1 'Painful Decision' per turn.", "1st", 
             "SR04-EN027", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (00911883, "Unexpected Dai", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (73628505, "Terraforming", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (00911883, "Unexpected Dai", "Spell", "Normal", "If you control no 
+            monsters: Special Summon 1 Level 4 or lower Normal Monster form the 
+            Deck.", "1st", "SR04-EN028", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (73628505, "Terraforming", "Spell", "Normal", "Add 1 Field Spell Card 
+            from your Deck to your hand.", "1st", "SR04-EN029", 3);
 
 /* Lastly we have the traps */
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (58272005, "Survival of the Fittest", "", "Trap", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (23869735, "Fossil Excavation", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (95676943, "Extinction on Schedule", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (29843091, "Ojama Trio", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (42956963, "Nightmare Archfiends", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (40838625, "Quaking Mirror Force", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (01637760, "Grand Horn of Heaven", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (18252559, "Secret Blast", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (, "Jurraegg Token", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (58272005, "Survival of the Fittest", "Trap", "Normal", "Target 1 
+            Dinosaur-Type monster you control; equip this card to that target. 
+            It gains 1000 ATK. When that attacking monster destroys an 
+            opponenet's monster by battle and sends it to the graveyard: You can 
+            activate this effect; the equiped monster can make a second attack 
+            on an opponent's monster in a row.", "1st", "SR04-EN031", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (23869735, "Fossil Excavation", "Trap", "Continuous", "Activate this 
+            card by discarding 1 card, then target 1 Dinosaur-Type monster in 
+            your Graveyard; Special Summon that target. Negate the effects of 
+            that monster on the field. When this card leaves the field, destroy 
+            that monster. When that monster is destroyed, destroy this card.", 
+            "1st", "SR04-EN032", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (95676943, "Extinction on Schedule", "Trap", "Normal", "During the 
+            Main Phase: Pay 2000 LP; make both players send all cards they 
+            control to the Graveyard at the end of the 3rd Battle Phase after 
+            this card's activation.", "1st", "SR04-EN033", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (29843091, "Ojama Trio", "Trap", "Normal", "Special Summon 3 'Ojama 
+            Tokens' (Beast-Type/Light?level 2/ ATK0/ DEF 1000) to your 
+            opponent's field in Defense Position. They cannot be Tributed for a 
+            Tribute Summon, and each time 1 is destroyed, its controller takes 
+            300 damage.", "1st", "SR04-EN034", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (42956963, "Nightmare Archfiends", "Trap", "Normal", "Tribute 1 
+            monster; Special Summon 3 'Nightmare Archfiend Tokens' (Fiend-Type/
+            Dark/Level 6/ATk 2000/DEF 2000) to your opponent's field in Attack 
+            Position. Each time 1 is destroyed, its controller takes 800 
+            damage.", "1st", "SR04-EN035", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (40838625, "Quaking Mirror Force", "Trap", "Normal", "When an 
+            opponent's monster declares an attack: Change all Attack Position 
+            monsters your opponent controls to face-down Defense Position. 
+            Monsters changed to face-down Defense Position by this effect cannot 
+            change their battle positions.", "1st", "SR04-EN036", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (01637760, "Grand Horn of Heaven", "Trap", "Counter", "During your 
+            opponent's Main Phase, when they would Special Summon a monster(s): 
+            Negate the summon, and if you do, destroy that monster, then your 
+            opponent draws 1 card, then end the Main Phase.", "1st",
+            "SR04-EN037", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (18252559, "Secret Blast", "Trap", "Normal", "Inflict 300 damage to 
+            your opponenet for each card they control. If this card you control 
+            is destroyed by an opponent's card and sent to your Graveyard: 
+            Inflict 1000 damage to your opponent.", "1st", "SR04-EN038", 3);
+
+/* Token monster */
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, quantity)
+    VALUES (NULL, "Jurraegg Token", "Earth", 1, "Dinosaur", "This card can be 
+            used as a 'Jurraegg Token'. *If used for another Token, apply that 
+            Token's Type/Attribute/Level/ATK/DEF.", "1st", "SR04-ENTKN", 0, 0, 3);
 
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
