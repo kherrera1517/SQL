@@ -38,11 +38,13 @@ CREATE TABLE Cards (
     ritual BOOLEAN DEFAULT 0,
     synchro BOOLEAN DEFAULT 0,
     token BOOLEAN DEFAULT 0,
+    tuner BOOLEAN DEFAULT 0,
     xyz BOOLEAN DEFAULT 0,
 
 /* Other characteristics of card */
-    rarity Char(12) DEFAULT "Common",
+    rarity CHAR(12) DEFAULT "Common",
     artwork CHAR(15) DEFAULT "Regular",
+    condition CHAR(15) DEFAULT "Near Mint/Mint",
     quantity INT,
 
     PRIMARY KEY (id, name, rarity, artwork)

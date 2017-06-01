@@ -32,16 +32,18 @@ An instance of a card may contain the following attributes:
     ritual BOOLEAN DEFAULT 0,
     synchro BOOLEAN DEFAULT 0,
     token BOOLEAN DEFAULT 0,
+    tuner BOOLEAN DEFAULT 0,
     xyz BOOLEAN DEFAULT 0,
 
     rarity Char(12) DEFAULT "Common" - i.e. Super, Ultra, Parallel, etc.
     artwork CHAR(15) DEFAULT "Regular" - artwork ordered by time of release
+    condition CHAR(15) DEFAULT "Near Mint/Mint", - i.e. Damaged, Used, etc.
     quantity INT - amount of cards of this exact type owned
     
    PRIMARY KEY (id, name, rarity, artwork)
 */
 
-/* Cards from Dinosmasher Structure Deck */
+/* Cards from Dinosmasher's Fury Structure Deck */
 
 /* First are the higher rarity cards */ 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
@@ -146,8 +148,8 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
     VALUES (83235263, "Tyranno Infinity", "Earth", 4, "Dinosaur", "The original 
             ATK of this card is the number of your banished Dinosaur-Type 
             monsters x 1000.", "1st", "SR04-EN009", 0, 1, 3);
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
-                    series, atk, def, effect, quantity)
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, 
+                    edition, series, atk, def, effect, quantity)
     VALUES (50896944, "Black Brachios", "Earth", 4, "Dinosaur", "When this card 
             is Normal SUmmoned: You can target 1 monster on the field; change 
             that target to face-up Defense Position.", "1st", "SR04-EN010",
@@ -345,8 +347,10 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
                     edition, series, atk, def, quantity)
     VALUES (NULL, "Jurraegg Token", "Earth", 1, "Dinosaur", "This card can be 
             used as a 'Jurraegg Token'. *If used for another Token, apply that 
-            Token's Type/Attribute/Level/ATK/DEF.", "1st", "SR04-ENTKN", 0, 0, 3);
+            Token's Type/Attribute/Level/ATK/DEF.", "1st", "SR04-ENTKN", 0, 0,
+            3);
 
+/* Other cards */
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
                     edition, series, atk, def, effect, quantity)
@@ -355,3 +359,121 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
             'Jurrac' monster with 1700 or less ATK from your Deck. It cannot 
             declare an atack this turn.", "Duel Terminal", "DT03-EN068", 1700,
             400, 1, 3);
+
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    rarity, quantity)
+    VALUES (40450317, "Ties of the Bretheren", "Spell", "Normal", "Pay 2000 LP, 
+            then target 1 Level 4 or lower monster you control; for the rest of 
+            this turn after this card resolves, you cannot Special Summon 
+            monsters, also Special Summon 2 monsters from yoru Deck, with the 
+            same Type, Attribute, and Level as the mosnter, but with different 
+            names from each other and that monster. You cannot conduct your 
+            Battle Phase the turn you acitvate this card.", "1st", "LDK2-ENY02",
+            "Ultra", 2);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, synchro, rarity, 
+                    quantity)
+    VALUES (44508094, "Stardust Dragon", "Wind", 8, "Dragon", "1 Tuner + 1 or 
+            more non-Tuner monsters  You can Tribute this card to negate the 
+            activation of a Spell Card, Trap Card, or Effect Monster's effect 
+            that destroys a card(s) on the field and destroy that card. If you 
+            negate an effect this way, you can Special Summon this card from 
+            your Graveyard during the End Phase.", "1st", "TDGS-EN040", 2500,
+            2000, 1, 1, "Ghost", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, synchro, rarity, 
+                    quantity)
+    VALUES (82044279, "Clear Wing Synchro Dragon", "Wind", 8, "Dragon", "1 Tuner 
+            + 1 or more non-Tuner monsters  Once per turn, during either 
+            player's turn, when another Level 5 or higher monster activates its 
+            effect on the field: You can negate the activation, and if you do, 
+            destroy it. Once per turn, during either player's turn, when a 
+            monster effect is actrivated that targets exactly 1 Level 5 or 
+            higher monster on the field (and no other cards): You can negate the 
+            activation, and if you do, do destroy it. If this card's effect 
+            destroys a monster, this card gains ATK equasl to the destroyed 
+            monster's original ATK until the end of this turn.", "1st",
+            "CROS-EN046", 2500, 2000, 1, 1, "Ghost", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, synchro, rarity, 
+                    quantity)
+    VALUES (80666118, "Scarlight Red Dragon Archfiend", "Dark", 8, "Dragon", "1 
+            Tuner + 1 or more non-Tuner monsters  This card's name becomes 'Red 
+            Dragon Archfiend' while it is on the field or in the Graveyard. Once 
+            per turn: You can destroy as many Special Summoned Effect Monsters 
+            on the field as possible with ATK less than or equal to this card's 
+            (other than this card), then inflict 500 damage to your opponent for 
+            each monster destroyed.", "1st", "DOCS-EN046", 3000, 2500, 1, 1,
+            "Ghost", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, synchro, rarity, 
+                    quantity)
+    VALUES (44508094, "Stardust Dragon", "Wind", 8, "Dragon", "1 Tuner + 1 or 
+            more non-Tuner monsters  You can Tribute this card to negate the 
+            activation of a Spell Card, Trap Card, or Effect Monster's effect 
+            that destroys a card(s) on the field and destroy that card. If you 
+            negate an effect this way, you can Special Summon this card from 
+            your Graveyard during the End Phase.", "Unlimited", "TDGS-EN040", 2500,
+            2000, 1, 1, "Ultimate", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, synchro, rarity, 
+                    quantity)
+    VALUES (25958491, "Ancient Sacred Wyvern", "Light", 7, "Fairy", "1 Light 
+            Tuner + 1 or more non-Tuner monsters  While your Life Points are 
+            higher than your opponent's, this card gainst ATK equal to the 
+            difference. While your Life Points are lower than your opponent's, 
+            this card loses ATK equal to the difference. When this card is 
+            destroyed by battle and sent to the Graveyard, you can pay 1000 Life 
+            Points to Special Summon this card.", "1st", "TDGS-EN040", 2100,
+            2000, 1, 1, "Ultimate", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, synchro, rarity, 
+                    quantity)
+    VALUES (97836203, "T.G. Halberd Cannon", "Earth", 12, "Machine", "1 Tuner Synchro 
+            Monster + 2 or more non-Tuner Synchro Monsters  This card cannot be 
+            Special Summoned except by Synchro Summon. Once per turn, while this 
+            card is face-up on the field, you can negate the Summon of a monster 
+            and destroy it. When this card is sent from the field to the 
+            Graveyard, you can select 1 'T.G.' monster in your Graveyard, and 
+            Special Summon it.", "1st", "EXVC-EN043", 4000, 4000, 1, 1,
+            "Ultimate", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, synchro, rarity, 
+                    quantity)
+    VALUES (52687916, "Trishula, Dragon of the Ice Barrier", "Water", 9, 
+            "Dragon", "1 Tuner + 2 or more non-Tuner monsters  When this card is 
+            Synchro Summoned: You can banish up to 1 card each from your 
+            opponent's hand, field, and Graveyard. (The card in the hand is 
+            chosen at random).", "Unlimited", "AP08-EN001", 2700, 2000, 1, 1,
+            "Ultimate", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, synchro, rarity, 
+                    quantity)
+    VALUES (03429238, "Drill Warrior", "Earth", 6, "Machine", "'Drill Synchron' 
+            + 1 or more non-Tuner monsters  Once per turn, during your Main 
+            Phase, you can halve this card's ATK (permanently). If you do, it 
+            can attack your opponent directly this turn. Once per turn, during 
+            your Main PHase, you can discard 1 card and remove this card from 
+            play. During your next Standby Phase, Special Summon this card, if 
+            removed by this effect. Then, add 1 Monster Card from your Graveyard 
+            to your hand.", "1st", "ABPF-EN041", 2400, 2000, 1, 1, "Ultimate",
+            1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+                    edition, series, atk, def, effect, synchro, rarity, 
+                    quantity)
+    VALUES (07391448, "Goyo Guardian", "Earth", 6, "Warrior", "1 Tuner + 1 or 
+            more non-Tuner monsters  When this card destroys an oponent's 
+            monster by battle and sends it to the Graveyard, you can Special 
+            Summon that mosnter to your side of the field in face-up Defense 
+            Position.", "Unlimited", "TDGS-EN042", 2800, 2000, 1, 1, "Ultimate",
+            1);
+
