@@ -31,6 +31,7 @@ CREATE TABLE Cards (
     effect BOOLEAN DEFAULT 0,
     flip BOOLEAN DEFAULT 0,
     fusion BOOLEAN DEFAULT 0,
+    gemini BOOLEAN DEFAULT 0,
     link BOOLEAN DEFAULT 0,
     normal BOOLEAN DEFAULT 0,
     pendulum BOOLEAN DEFAULT 0,

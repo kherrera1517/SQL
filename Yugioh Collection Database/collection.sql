@@ -25,6 +25,7 @@ An instance of a card may contain the following attributes:
     effect BOOLEAN DEFAULT 0
     flip BOOLEAN DEFAULT 0,
     fusion BOOLEAN DEFAULT 0,
+    gemini BOOLEAN DEFAULT 0,
     link BOOLEAN DEFAULT 0,
     normal BOOLEAN DEFAULT 0,
     pendulum BOOLEAN DEFAULT 0,
@@ -41,6 +42,8 @@ An instance of a card may contain the following attributes:
 */
 
 /* Cards from Dinosmasher Structure Deck */
+
+/* First are the higher rarity cards */ 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
                     edition, series, atk, def, effect, rarity, quantity)
     VALUES (82946847, "Petiteranodon", "Earth", 2, "Dinosaur", "If this card is 
@@ -93,6 +96,8 @@ INSERT INTO Cards (id, name, attribute, type, description, edition,
             can banish this card from your graveyard, then target 1 Dinosaur-
             Type monster you control and 1 card your opponent controls; destroy 
             them.", "1st", "SR04-EN030", "Super", 3);
+
+/* Next are the monsters */
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
                     edition, series, atk, def, effect, rarity, quantity)
     VALUES (81823360, "Megalosmasher X", "Water", 4, "Dinosaur", "With its 
@@ -137,11 +142,16 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
             opponent takes from that battle is doubled.", "1st", "SR04-EN008",
             1500, 3000, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-                    edition, series, atk, def, effect, rarity, quantity)
-    VALUES (83235263, "Tyranno Infinity", "", 4, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    edition, series, def, effect, quantity)
+    VALUES (83235263, "Tyranno Infinity", "Earth", 4, "Dinosaur", "The original 
+            ATK of this card is the number of your banished Dinosaur-Type 
+            monsters x 1000.", "1st", "SR04-EN009", 0, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (50896944, "Black Brachios", "", 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    series, atk, def, effect, quantity)
+    VALUES (50896944, "Black Brachios", "Earth", 4, "Dinosaur", "When this card 
+            is Normal SUmmoned: You can target 1 monster on the field; change 
+            that target to face-up Defense Position.", "1st", "SR04-EN010",
+            1800, 1100, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
                     edition, series, atk, def, effect, quantity)
     VALUES (63259351, "Miracle Jurassic Egg", "Earth", 4, "Dinosaur", "While 
@@ -154,10 +164,15 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
                     edition, series, atk, def, effect, quantity)
     VALUES (45894482, "Gilasaurus", "Earth", 3, "Dinosaur", "You can Special
-            Summon this card (from your hand). If Summoned this way: Activate", "1st", "SR04-EN012", , , 1, 3);
+            Summon this card (from your hand). If Summoned this way: Activate 
+            this effect; your opponenet can Special Summon 1 monster from their 
+            Graveyard.", "1st", "SR04-EN012", 1400, 400, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-                    edition, series, atk, def, effect, rarity, quantity)
-    VALUES (36042004, "Babycerasaurus", "", 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    edition, series, atk, def, effect, quantity)
+    VALUES (36042004, "Babycerasaurus", "Earth", 2, "Dinosaur", "If this card is 
+            destroyed by a card effect and sent to the Graveyard: Special Summon 
+            1 Level 4 or lower Dinosaur-Type monster from your Deck.", "1st",
+            "SR04-EN013", 500, 500, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
                     edition, series, atk, def, effect, quantity)
     VALUES (38572779, "Miscellaneousaurus", "Fire", 4, "Dinosaur", "During 
@@ -171,42 +186,92 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
             only use this effect of 'Miscellaneousaurus' once per turn.", "1st",
             "SR04-EN00", 1800, 1000, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-                    edition, series, atk, def, effect, rarity, quantity)
-    VALUES (04058065, "Evilswarm Salamandra", "", 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    edition, series, atk, def, effect, quantity)
+    VALUES (04058065, "Evilswarm Salamandra", "Dark", 4, "Dinosaur", "Up to 
+            twice per turn: You can banish 1 monster from your Graveyard; this 
+            card gains 300 ATK until the end of your opponent's turn.", "1st",
+            "SR04-EN015", 1850, 950, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-                    edition, series, atk, def, effect, rarity, quantity)
-    VALUES (99733359, "Stegocyber", "", 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    edition, series, atk, def, effect, quantity)
+    VALUES (99733359, "Stegocyber", "Dark", 6, "Dinosaur", "During damage 
+            calculation, if your opponent's monster attacks while this card is 
+            in your Graveyard: You can pay 1000 LP; Special Summon this card, 
+            and if you do, you take no battle damage from that battle, but 
+            banish this card when it leaves the field (this is a Quick Effect). 
+            You can only use this effect of 'Stegocyber' once per turn.", "1st",
+            "SR04-EN016", 1200, 2400, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-                    edition, series, atk, def, effect, rarity, quantity)
-    VALUES (12275533, "Trifortressops", "", 2, "Machine", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    edition, series, atk, def, effect, quantity)
+    VALUES (12275533, "Trifortressops", "Dark", 6, "Machine", "During either 
+            player's turn, if your opponent Summoned 3 or more monsters this 
+            turn: You can Special Summon this card from your hand. If summoned 
+            this way, it is unaffected by other cards' effects, but loses 500 
+            DEF during each player's Standby Phase.", "1st", "SR04-EN017", 1600,
+            2800, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-                    edition, series, atk, def, effect, rarity, quantity)
-    VALUES (89362180, "Skelesaurus", "", 2, "Zombie", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    edition, series, atk, def, effect, quantity)
+    VALUES (89362180, "Skelesaurus", "Skelesaurus", 4, "Zombie", "This card is 
+            treated as a Normal Monster while face-up on the field or in the 
+            Graveyard. While this card is a Normal Monster on the field, you can 
+            Normal Summon it to have it become an Effect Monster with these 
+            effects. - This card becomes Earth Dinosaur-Type. When this card 
+            destroys an opponenet's monster by battle and sends it to the 
+            Graveyard: You can Special SUmmon that monster to your field in 
+            Defense Position, and if you do, it becomes Zombie-Type.", "1st",
+            "SR04-EN018", 1700, 1400, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-                    edition, series, atk, def, effect, rarity, quantity)
-    VALUES (07392745, "Chewbone", "", 2, "Zombie", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    edition, series, atk, def, effect, flip, quantity)
+    VALUES (07392745, "Chewbone", "Earth", 3, "Zombie", "FLIP: Special Summon 3 
+            'Chewbone Jr. Tokens' (Zombie-Type/Earth/LEvel 1/ATK 100/DEF 300) to 
+            your opponent's field in Defense Position.", "1st", "SR04-EN019",
+            300, 300, 1, 1, 3);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-                    edition, series, atk, def, effect, rarity, quantity)
-    VALUES (85138716, "Rescue Rabbit", "", 2, "Beast", "", "1st", "SR04-EN00", , , 1, "", 3);
+                    edition, series, atk, def, effect, quantity)
+    VALUES (85138716, "Rescue Rabbit", "Earth", 4, "Beast", "Cannot be Special 
+            Summoned from the Deck. You can banish this face-up card you 
+            control; Special Summon 2 Level 4 or lower Normal Monsters with the 
+            same name from your Deck, but destroy them during the End Phase. You 
+            can only use this effect of 'Rescue Rabbit' once per turn.", "1st", 
+            "SR04-EN020", 300, 100, 1, 3);
 
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (47325505, "Fossil Dig", "", "Spell", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (84808313, "Big Evolution Pill", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (43898403, "Twin Twisters", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (48976825, "Burial from a Different Dimension", "", 2, "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (129223641, "Swords of Concealing Light", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition,
-                    series, atk, def, effect, rarity, quantity)
-    VALUES (01033312, "Painful Decision", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
+/* Next are the spells */
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (47325505, "Fossil Dig", "Spell", "Normal", "Add 1 Level 6 or lower 
+            Dinosaur-Type monster from your deck to your hand.", "1st",
+            "SR04-EN022", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (84808313, "Big Evolution Pill", "Spell", "Normal", "After this 
+            card's activation, it remains on the field, but destroy it during 
+            your opponent's 3rd End Phase. Tirbute 1 Dinosaur-Type monster to 
+            activate this card; while this card is face-up on the field, you can 
+            Normal Summon Level 5 or higher Dinosaur-Type monsters without 
+            Tributing.", "1st", "SR04-EN023", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (43898403, "Twin Twisters", "Spell", "Quick-Play", "Discard 1 card, then 
+            target up to 2 Spell/Trap Cards on the field; destroy them.", "1st",
+            "SR04-EN024", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (48976825, "Burial from a Different Dimension", "Spell", "Quick-
+            Play", "Target up to 3 banished monsters; return them to the 
+            Graveyard.", "1st", "SR04-EN025", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (129223641, "Swords of Concealing Light", "Spell", "Continuous", 
+            "Destroy this card during your 2nd Standby Phase after activation. 
+            When this card resolves, change all monsters your opponent controls 
+            to face-down Defense Position. Monster your opponent controls cannot 
+            change their battle positions.", "1st", "SR04-EN026", 3);
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+                    quantity)
+    VALUES (01033312, "Painful Decision", "Spell", "Normal", "Send 1 Level 4 or 
+            lower Normal Monster from your Deck to the Graveyard, and if you do, 
+            add 1 card with the same name as the card from your Deck to your 
+            hand. You can only activate 1 'Painful Decision' per turn.", "1st", 
+            "SR04-EN027", 3);
 INSERT INTO Cards (id, name, attribute, type, description, edition,
                     series, atk, def, effect, rarity, quantity)
     VALUES (00911883, "Unexpected Dai", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
@@ -214,6 +279,7 @@ INSERT INTO Cards (id, name, attribute, type, description, edition,
                     series, atk, def, effect, rarity, quantity)
     VALUES (73628505, "Terraforming", "", "Dinosaur", "", "1st", "SR04-EN00", , , 1, "", 3);
 
+/* Lastly we have the traps */
 INSERT INTO Cards (id, name, attribute, type, description, edition,
                     series, atk, def, effect, rarity, quantity)
     VALUES (58272005, "Survival of the Fittest", "", "Trap", "", "1st", "SR04-EN00", , , 1, "", 3);
