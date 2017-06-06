@@ -884,13 +884,13 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Diamond Dire Wolf", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (95169481, "Diamond Dire Wolf", "Earth", 4, "Beast", 
+        "2 Level 4 monsters  Once per turn: You can detach 1 Xyz Material from this card, then target 1 Beast, Beast-Warrior or Winged Beast-Type Monster you control and 1 other card on the field; destroy them.", "Limited", "CT10-EN012", 2000, 1200, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "True King of All Calamities", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (88581108, "True King of All Calamities", "Dark", 9, "Wyrm", 
+        "2 or more Level 9 monsters  Once per turn, during either player's turn: You can detach 1 Xyz Material from this card and declare 1 Attribute; this turn, all face-up monsters on the field become that Attribute, also all monsters in your opponent's possesion with that Attribute cannot activate their effects or attack. Monsters that 'True Draco' and 'True King' monsters in your hand would destroy with their effects can be chosen from your opponent's field.", "1st", "MACR-EN046", 3000, 3000, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
