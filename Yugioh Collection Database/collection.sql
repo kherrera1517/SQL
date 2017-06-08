@@ -1042,3 +1042,178 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
     VALUES (20409757, "Timegazer Magician", "Dark", 3, 8, "Spellcaster", 
         "You must control no monsters to activate this card. If a Pendulum Monster you control attacks or is attacked, your opponent cannot activate Trap Cards until the end of the Damage Step. Unless you have a 'Magician' card or 'Odd-Eyes' card in your other Pendulum Zone, this card's Pendulum Scale becomes 4.", "Each turn, this first card(s) in your Pendulum Zone that would be destroyed by an opponent's card effect, is not destroyed.", "1st", "YS14-EN010", 1200, 600, 1, 1, 1);
 
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (14017402, "Dragon Knight Draco-Equiste", "Wind", 10, "Dragon", 
+        "1 Dragon-Type Synchro Monster + 1 Warrior-Type monster  Thist monster", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, quantity)
+    VALUES (, "", "", , "", 
+        "", "", "", , , 1, 1, 1);
+
