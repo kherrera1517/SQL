@@ -894,111 +894,151 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Maestroke the Symphony Djinn", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (25341652, "Maestroke the Symphony Djinn", "Dark", 4, "Fiend", 
+        "2 Level 4 monsters  Once per turn: You can detach 1 Xyz Material from this card to target 1 face-up Attack position monster your opponent controls; change it to face-down Defense Position. If a face-up 'Djinn' Xyz Monster you control would be destroyed, you can detach 1 Xyz Material from that monster instead.", "1st", "YS12-EN043", 1800, 2300, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Cairngorgon, Antiluminescent Knight", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (21501505, "Cairngorgon, Antiluminescent Knight", "Dark", 4, "Rock", 
+        "2 Level 4 monsters  During either player's turn, when another card or effect is activated that targetrs exactly 1 card on the field (and no other cards): You can detach 1 Xyz Material from this card, then target another card on the field that would be an appropriate target for that card/effect; that card/effect now targets the new target.", "1st", "PRIO-EN054", 2450, 1950, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Digital Bug Rhinosebus", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (85004150, "Digital Bug Rhinosebus", "Light", 7, "Insect", 
+        "2 or more Level 7 Insect-Type monsters  You can also Xyz Summon this card by detaching 2 Xyz Materials from a Rank 5 or 6 Insect-Type Xyz Monster you control, then using that Xyz Monster as Xyz Material. (Xyz Materials attached to that monster also become Xyz Materials on this card.) If this card attacks a Defense Position monster, inflict piercing battle damage to your opponent. Once per turn, during either player's turn: You can detach 1 Xyz Material from this card; destroy the face-up monster(s) your opponent controls with the highest DEF (all, if tied).", "1st", "SHVI-EN056", 2600, 2200, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Galaxy-Eyes FUll Armor Photon Dragon", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (39030163, "Galaxy-Eyes Full Armor Photon Dragon", "Light", 8,
+        "Dragon", "3 Level 8 monsters  You can also Xyz Summon this card by using a 'Galaxy-Eyes' Xyz Monster you control as the Xyz Material, except 'Galaxy-Eyes Full Armor Photon Dragon'. (Xyz Materials attached to that monster also become Xyz Materials on this card.) Once per turn: You can target up to 2 Equip Cards equipped to this card; attach them to this card as Xyz Materials. Once per turn: You can detach 1 Xyz Material from this card, then target 1 face-up card your opponent controls; destroy it.", "1st", "CROS-EN095", 4000, 3500, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "The Phantom Knights of Cursed Javelin", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (12219047, "The Phantom Knights of Cursed Javelin", "Dark", 2,
+        "Warrior", "2 Level 2 monsters  You can detach 1 Xyz Material from this card, then target 1 face-up monster your opponent controls; until the end of this turn, change its ATK to 0, also it has its effects negated. This effect can be activated during either player's turn, if this card has a 'The Phantom Knights' card as Xyz Material. You can only use this effect of 'The Phantom Knights of Cursed Javelin' once per turn.", "1st", "MACR-EN-42", 1600, 0, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Lyrilusc - Assembled Nightingale", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (486087986, "Lyrilusc - Assembled Nightingale", "Wind", 1,
+        "Winged Beast", "2 or more Level 1 monsters  This card gains 200 ATK for each XYZ Material attached to it. This card can attack directly. While this card has Xyz Material, it can attack a number of times each Battle Phase, up to the number of Xyz Materials attached to ti. Once per turn, during either player's turn: You can detach 1 Xyz Material fromt his card; until the end of this turn, 'Lyrilusc' monsters you control cannot be destroyed by battle or card effects, also you take no battle damage.", "1st", "MACR-EN043", 0, 0, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Heroic Champion - Kusanagi", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (74593218, "Heroic Champion - Kusanagi", "Earth", 4, "Warrior", 
+        "4 Level 4 Warrior-Type monsters  Once per turn, during either player's turn, when a Trap Card is activated: You can detach 1 Xyz Material from this card; negate the activation, and if you do, destroy it, then this card gains 500 ATK.", "1st", "ABYR-EN043", 2500, 2400, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Abyss Dweller", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (21044178, "Abyss Dweller", "Water", 4, "Sea Seprent", 
+        "2 Level 4 monsters  While this card has an Xyz Material attached that was originally Water, all Water monsters you control gain 500 ATK. Once per turn, during either player's turn: You can detach 1 Xyz material from this card; any card effects that activate in your opponent's Graveyard cannot be activated this turn.", "Unlimited", "ABYR-EN084", 1700, 1400, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Brotherhood of the Fire Fist - Lion Emperor", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (37057743, "Brotherhood of the Fire Fist - Lion Emperor", "Fire", 3,
+        "Beast-Warrior", "2 Level 3 Fire monsters  Once per turn: You can detach 1 Xyz Material from this card, then target 1 Fire monster in your Graveyard; add that target to your hand, but you cannot Normal or Special Summon that monster, or a monster with the same name, for the rest of this turn.", "1st", "CBLZ-EN099", 2200, 200 , 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Grenosaurus", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (, "Grenosaurus", "", 3, "", 
+        "2 Level 3 monsters  When this card destroys an opponent's monster by battle and sends it to the Graveyard: You can detach 1 Xyz Material from this card; inflict 1000 damage to your opponent.", "1st", "YS11-EN043", 2000, 1900, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Armored Kappa", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (50789693, "Armored Kappa", "Water", 4, "Psychic", 
+        "2 Level 2 monsters  Once per turn: You can detach 1 Xyz Material from this card; this card gains 1000 ATK or DEF. During either player's Battle Step, while an attack involving your monster is occurring: You can discard 1 card; for the rest of this turn, monsters you control cannot be destroyed by battle, also you take no battle damage. You can only use this effect of 'Armored Kappa' once per Duel.", "1st", "SHSP-EN097", 400, 1000, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Gagaga Cowboy", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (12014404, "Gagaga Cowboy", "Earth", 4, "Warrior", 
+        "2 Level 4 monsters  Once per turn: You can detach 1 Xyz Material from this card; apply this effect, depending on this card's current battle position.  - Attack Position: If this card attacks an opponent's monster this turn, it gains 1000 ATK, also the opponent's monster loses 500 ATK, during the Damage Step only.  - Defense Position: Inflict 800 damage to your opponent.", "1st", "ABYR-EN041", 1500, 2400, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Muzurhythm the String Djinn", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (26563200, "Muzurhythm the String Djinn", "Wind", 3, "Fiend", 
+        "2 Level 3 monsters  During the Damage Step, when a 'Djinn' Xyz Monster you control is attacking an opponent's monster: You can detach 1 Xyz Material from this card; the attacking monster's ATK is doubled until the End Phase. The effect of 'Muzurhythm the String Djinn' can only be used once per turn.", "1st", "YS12-EN040", 1500, 1000, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Superdreadnought Rail Cannon Gustav Max", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (56910167, "Superdreadnought Rail Cannon Gustav Max", "Earth", 10,
+        "Machine", "2 Level 10 monsters  Once per turn: You can detach 1 Xyz Material from this card; Inflict 2000 damage to your opponent.", "Limited", "CT10-EN007", 3000, 3000, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Temtempo the Percussion Djinn", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (52558805, "Temtempo the Percussion Djinn", "Earth", 3, "Fiend", 
+        "2 Level 3 monsters  Once per turn, during either player's turn: You can detach 1 Xyz Material from this card to target 1 Xyz Monster your opponent controls; detach 1 Xyz Material from that monster, and all face-up 'Djinn' Xyz Monsters your currently control gain 500 ATK.", "1st", "YS12-EN041", 1700, 1000, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Melomelody the Brass Djinn", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (88942504, "Melomelody the Brass Djinn", "Light", 3, "Fiend", 
+        "2 Level 3 monsters  Once per turn: You can detach 1 Xyz Material from this card to target 1 'Djinn' Xyz Monster you control; this turn, that monster can attack twice during each Battle Phase.", "1st", "YS12-042", 1400, 1600, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Fairy Knight Ingunar", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (19684740, "Fairy Knight Ingunar", "Earth", 6, "Plant", 
+        "2 Level 6 monsters  Once per turn: You can detach 2 Xyz Materials from this card; return all other cards on the field to the hand. Your opponent cannot activate cards or effects in response to this effect's activation.", "1st", "LVAL-EN055", 2200, 3000, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Gagaga Samurai", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (91499077, "Gagaga Samurai", "Earth", 4, "Warrior", 
+        "2 Level 4 monsters  Once per turn: You can detach 1 Xyz material from this card, then target 1 'Gagaga' monster you control; it can make second attack during each Battle Phase this turn. When a monster you control is targeted for an attack while this card is in Attack Position: You can change this card to face-up Defense Position, and if you do, change the attack target to this card and perform damage calculation.", "1st", "WSUP-EN027", 1900, 1600, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Wind-Up Zenmaines", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Super", 1);
+    VALUES (78156759, "Wind-Up Zenmaines", "Fire", 3, "Machine", 
+        "2 Level 3 monsters  If this face-up card on the field would be destroyed, you can detach Xyz Material from this card instead. Once per turn, during the End Phase, if this effect was used this turn: Target 1 card on the field; destroy it.", "Limited", "CTO9-EN008", 1500, 2100, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Bujintei Susanowo", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "", 1);
+    VALUES (75840616, "Bujintei Susanowo", "Light", 4, "Beast-Warrior", 
+        "2 Level 4 'Bujin' monsters  This card can attack all monsters your opponent controls once each. Once per turn: You can detach 1 Xyz Material form this card; take 1 'Bujin' monster from your Deck, and either add it to your hand or send it to the Graveyard. You can only control 1 'Bujintei Susanowo'.", "Limited", "CT11-EN002", 2400, 1600, 1, 1, "Platinum Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Photon Papilloperative", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, "Rare", 1);
+    VALUES (28150174, "Photon Papilloperative", "Light", 4, "Warrior", 
+        "2 Level 4 monsters  Once per turn: You can detach 1 Xyz Material from this card to target 1 Defense Position monster on the field; change it to face-up Attack Position, and if you do, it loses 600 ATK.", "1st", "GAOV-EN044", 2100, 1800, 1, 1, "Rare", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, quantity)
-    VALUES (, "Tiras, Keeper of Genesis", "", 4, "", 
-        "2 Level 4 monsters  ", "", "", , , 1, 1, 1);
+    VALUES (31386180, "Tiras, Keeper of Genesis", "Light", 5, "Fairy", 
+        "2 Level 5 monsters  This card's effects can only be applied/resolved while it has Xyz Material. This card cannot be destroyed by card effects. At the end of the Battle Phase, if this card attacked or was attacked: Target 1 card your opponent controls; destroy that target. During each of your End Phases: Detach 1 Xyz Material from this card.", "1st", "BP01-EN029", 2600, 1700, 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
+        pendulum_effect, description, edition, series, atk, def, normal, pendulum, quantity)
+    VALUES (82114013, "Sea Dragoons of Draconia", "Water", 3, 7, "Sea Serpent", 
+        "When a monster is destroyed by battle: You can Special Summon 1 Normal Monster from your hand. You can only use this effect of 'Sea Dragoons of Draconia' once per turn.", "Silent creeping in from the deep sea, elite black ops marine troops of the Draconia Empire wage an endless battle against the hated Principality of Dinon on the sea's opposite shores.", "Limited", "CROS-ENSP1", 200, 2100, 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
+        pendulum_effect, description, edition, series, atk, def, normal, pendulum, quantity)
+    VALUES (73779005, "Dragoons of Draconia", "Fire", 4, 2, "Beast-Warrior", 
+        "Once per turn, if a Normal Monster you control destroys an opponent's monster by battle, after damage calculation: You can add 1 Level 4 or higher Normal Monster from your Deck to your hand.", "Armed with muskets and iron spears, these mounted land troops of the Draconia Empire are feared by the Reptier Kingdom and other boardering nations.", "Limited", "SECE-ENSP1", 1800, 200, 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
+        pendulum_effect, description, edition, series, atk, def, normal, pendulum, quantity)
+    VALUES (17390179, "Flash Knight", "Light", 4, 7, "Warrior", 
+        "", "The power of the pendulum flashes forth from this shining knight.", "1ST", "DUEA-EN001", 1800, 600, 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
+        pendulum_effect, description, edition, series, atk, def, normal, pendulum, quantity)
+    VALUES (48940337, "Lancephorhynchus", "Wind", 6, 7, "Dinosaur", 
+        "If a Normal Monster you control attacks a Defense Position monster, inflict piercing battle damage to your opponent.", "This primordial species survived extinction by evolving an offensive lance that can pierce anything, although its diet still consists mainly of fish.", "1st", "NECH-EN000", 2500, 800, 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
+        pendulum_effect, description, edition, series, atk, def, normal, pendulum, quantity)
+    VALUES (21970285, "Dragon Horn Hunter", "Dark", 6, 3, "Warrior", 
+        "All Normal Monsters gain 200 ATK. You take no battle damage from battles involving Normal Monsters you control.", "1st", "DUEA-EN000", 2300, 1000, 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
+        pendulum_effect, description, edition, series, atk, def, normal, pendulum, quantity)
+    VALUES (43785278, "Foucalt's Cannon", "Dark", 5, 2, "Spellcaster", 
+        "During the End Phase, if this card was activated this turn: You can target 1 face-up Spell/Trap Card on the field; destroy it.", "A mechanized life form, roving through space-time. But the mysterious thing is that its memory i... m...stly gone. W...at is t...e reason? D..... refuse t... b.... interfered w...h?", "1st", "DUEA-EN002", 2200, 1200, 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
+        pendulum_effect, description, edition, series, atk, def, effect, pendulum, quantity)
+    VALUES (94415058, "Stargazer Magician", "Dark", 5, 1, "Spellcaster", 
+        "If a Pendulum Monster you control attacks or is attacked, your opponent cannot activate Spell Cards until the end of the Damage Step. Unless you have a 'Magician' card or 'Odd-Eyes' card in your other Pendulum Zone, this card's Pendulum Scale becomes 4.", "Once per turn, when exactly 1 other Pendulum Monster you control (and no other cards) is returned to your hand by an opponent's card effect (except during the Damage Step): You can Special Summon 1 monster from your hand with the same name as that returned to the hand.", "1st", "YS14-EN009", 1200, 2400, 1, 1, 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
+        pendulum_effect, description, edition, series, atk, def, effect, pendulum, quantity)
+    VALUES (20409757, "Timegazer Magician", "Dark", 3, 8, "Spellcaster", 
+        "You must control no monsters to activate this card. If a Pendulum Monster you control attacks or is attacked, your opponent cannot activate Trap Cards until the end of the Damage Step. Unless you have a 'Magician' card or 'Odd-Eyes' card in your other Pendulum Zone, this card's Pendulum Scale becomes 4.", "Each turn, this first card(s) in your Pendulum Zone that would be destroyed by an opponent's card effect, is not destroyed.", "1st", "YS14-EN010", 1200, 600, 1, 1, 1);
 
