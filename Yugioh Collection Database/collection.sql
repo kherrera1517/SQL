@@ -1043,177 +1043,127 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, scale, type,
         "You must control no monsters to activate this card. If a Pendulum Monster you control attacks or is attacked, your opponent cannot activate Trap Cards until the end of the Damage Step. Unless you have a 'Magician' card or 'Odd-Eyes' card in your other Pendulum Zone, this card's Pendulum Scale becomes 4.", "Each turn, this first card(s) in your Pendulum Zone that would be destroyed by an opponent's card effect, is not destroyed.", "1st", "YS14-EN010", 1200, 600, 1, 1, 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
+        edition, series, atk, def, effect, fusion, rarity, quantity)
     VALUES (14017402, "Dragon Knight Draco-Equiste", "Wind", 10, "Dragon", 
-        "1 Dragon-Type Synchro Monster + 1 Warrior-Type monster  Thist monster", "", "", , , 1, 1, 1);
+        "1 Dragon-Type Synchro Monster + 1 Warrior-Type monster  This monster can only be Special Summoned by Fusion Summon (from the Extra Deck). Once per turn, you can select 1 Dragon-Type Synchro Monster in the Graveyard. Remove it from play, treat this cards's name as that monster's name and give this card the same effects as that monster until the End PHase. While this card is in face-up Attack Position, any effect damage you would take from an opponent's card effect is inflicted on your opponent instead.", "1st", "DREV-EN038", 3200, 2000, 1, 1, "Ghost", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (82734805, "Infernoid Tierra", "Fire", 11, "Fiend", 
+        "'Infernoid Onuncu' + 'Infernoid Devyaty' + 1 or more 'Infernoid' monsters  When this card is Fusion Summoned, you can: Apply these effects, in sequence, depending on the number of Fusion Materials with different names used for this card's Summon;  - 3 or more: Each player sends 3 cards from their Extra Deck to the Graveyard.  - 5 or more: Each player sends the top 3 cards from their Deck to the Graveyard.  - 8 or more: Each player returns up to 3 of their banished cards to the Graveyard.  - 10 or more: Each player sends their entire hand to the Graveyard.", "1st", "CORE-EN049", 3400, 3600, 1, 1, "Ultimate", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (98502113, "Dark Paladin", "Dark", 8, "Spellcaster", 
+        "'Dark Magician' + 'Buster Blader'  This monster can only be Special Summoned by Fusion Summon. As long as this card remains face-up on the field, you can negate the activation of 1 Spell Card and destroy that Spell Card by discarding 1 card from your hand. The ATK of this card increases by 500 points for each Dragon-Type monster on the field and in either player's Graveyard.", "Limited", "DMG-001", 2900, 2400, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (58293343, "Tyrant Burst Dragon", "Light", 8, "Dragon", 
+        "Must be Special Summoned with the 'The Fang of Critias', using 'Tyrant Wing', and cannot be Special Summoned by other ways. This card can attack all monsters your opponent controls, once each. You can target 1 face-up monster you control; equip this monster to that target. It gains 400 ATK and DEF, also it can make 3 attacks during each Battle Phase.", "1st", "DRL2-EN004", 2900, 2500, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, effect, fusion, rarity, quantity)
+    VALUES (53315891, "Timaeus the Knight of Destiny", "Light", 10, "Warrior", 
+        "'Legendary Knight Timaeus' + 'Legendary Knight Critias' + 'Legendary Knight Hermos'  Must be Special Summoned (from your Extra Deck) by sending the above cards you control to the Graveyard, and cannot be Special Summoned by other ways. (You do not use 'Polymerization'.) This card is unaffected by other cards' effects. Once per battle, if htis card attacks or is attacked, during damage calculation (in either player's turn): You can make this card's ATK and DEF become equal to the ATK of the monster on the field with the highest ATK (your choice, if tied). When this card is destroyed by battle: You can Special Summon 3 'Legendary Knight' monsters from your hand, Deck, and/or Graveyard, ignoring their Summoning conditions.", "1st", "DRL2-EN001", 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (83743222, "Goddess Bow", "Light", 4, "Warrior", 
+        "Must be Special Summoned with 'The Claw of Hermos', using a Warrior-Type monster, and cannot be Special Summoned by other ways. If this card is Special Summoned: Target 1 other face-up monster on the field; equip this card to it. While this card is equipped to a monster by this effect, negate the first effect activated by your opponent during each Battle Phase, also, after that equipped monster can make a second attack during this Battle Phase.", "1st", "DRL2-EN011", 1500, 1600, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (18386170, "Dante, Pilgrim of the Burning Abyss", "Light", 9,
+        "Fairy", " 3 'Burning Abyss' monsters with different names  Must be Fusion Summoned and cannot be Special Summoned by other ways. Cannot be targeted by an opponent's card effects. Once per turn, during either player's turn: You can send 1 'Burning Abyss' card from your hand to the Graveyard; draw 1 card. If this card is destroyed by battle and sent to the Graveyard, or if this card you control is sent to your Graveyard by an opponent's card effect: You can send 1 random card from your opponent's hand to the Graveyard.", "1st", "CROS-EN084", 2800, 2500, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (30960419, "Time Magic Hammer", "Light", 2, "Spellcaster", 
+        "Must be Special Summoned with 'The Claw of Hermos', using a Spellcaster-Type monster, and cannot be Special Summoned by other ways. If this card is Special Summoned: Target 1 other face-up monster on the field: equip this card to it. At the start of the Damage Step, if it battles and opponent's monster: You can roll a six-sided die, and banish that opponent's monster until the Standby Phase of the Nth turn after this effects's activation. (N = the result).", "1st", "DRL2-EN009", 500, 400, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (48996569, "Elemental Hero Grand Neos", "Earth", 7, "Warrior", 
+        "'Elemental Hero Neos' + Neo-Spacian Grand Mole  This card can only be Special Summoned from your Fusion Deck by returning the above cards you control to the Deck. (You do not use 'Polymerization'.) Once per turn, you can return 1 monster your opponent controls to its owner's hand. This card returns to the Fusion Deck during the End Phase.", "Limited", "CTO4-EN001", 2500, 2000, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (29357956, "Gladiator Beast Nerokius", "Dark", 8, "Winged Beast", 
+        "3 'Gladiator Beast' monsters  Must first be Special Summoned (from your Extra Deck) by shuffling the above cards you control into the Deck. (You do not use 'Polymerization'.) Cannot be destroyed by battle. If this card attacks or is attacked, your opponent cannot activate cards or effects until the end of the Damage Step. At the end of the Battle Phase, if this card attacked or was attacked: You can shuffle it into the Extra Deck; Special Summon 2 'Gladiator Beast' monsters from your Deck.", "1st", "PRIO-EN086", 2800, 1900, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (39512984, "Gem-Knight Master Diamond", "Earth", 9, "Rock", 
+        "3 'Gem-Knight' monsters  Must first be Fusion Summoned. This card gains 100 ATK for each 'Gem-' monster in your Graveyard. Once per turn: You can banish 1 Level 7 or lower 'Gem-Knight' Fusion Monster from your Graveyard; until the End Phase, this card's name and original effect become the same as that banished monster's.", "1st", "HA07-EN059", 2900, 2500, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (45170821, "Vision HERO Adoration", "Unlimited", 8, "Warrior", 
+        "2 'HERO' monsters  Once per turn: You can target 1 face-up monster your opponent controls and 1 face-up 'Hero' monster you control, except this card; the opponent's targeted monster loses ATK and DEF equal to the ATK of your targeted monster, until the End Phase.", "Unlimited", "GENF-EN096", 2800, 2100, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (59642500, "Masked HERO Anki", "Dark", 8, "Warrior", 
+        "Must be Special Summoned with 'Mask Change' and cannot be Special Summoned by other ways. This card can attack your opponent directly, but when it does so using this effect, the battle damage inflicted to your opponent is halved. When this card destroys an opponent's monster by battle and sends it to the Graveyard: You can add 1 'Change' Quick-Play Spell Card from your Deck to your hand. You can only use this effect of 'Masked HERO Anki' once per turn.", "1st", "PGL2-EN011", 2800, 1200, 1, 1, "Gold", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (86099788, "The Last Warrior from Another Planet", "Earth", 7,
+        "Warrior", "'Zombyra the Dark' + 'Maryokutai'  When this card is Special Summoned, destroy all monsters on your side of the field except this card. As long as this card remains face-up on the field, both players cannot Summon (including Flip Summon or Special Summon) any mosnter.", "Unlimited", "LON-077", 2350, 2300, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (23204029, "Contrast HERO Chaos", "Dark", 9, "Warrior", 
+        "2 'Masked HERO' monsters  (This card is always treated as an 'Elemental HERO' card.)  Must be Fusion Summoned and cannot be Special Summoned by other ways. While face-up on the field, this card is also Light-Attribute. Once per turn, during either player's turn: You can target 1 face-up card on the field; negate that target's effects until of this turn.", "1st", "SDHS-EN041", 3000, 2600, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (91998119, "XYZ-Dragon Cannon", "Light", 8, "Machine", 
+        "'X-Head Cannon' + 'Y-Dragon Head' + 'Z-Metal Tank'  This monster can only be Special Summoned by removing from play the above monsters on your side of the field. You do not use 'Polymerization' to Special Summon this monster from your Fusion Deck. Discard 1 card from your hand to destroy 1 card on your opponent's side of the field.", "1st", "MFC-052", 2800, 2600, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (79229522, "Chimeratech Fortress Dragon", "Dark", 8, "Machine", 
+        "'Cyber Dragon' + 1 or more Machine-Type monsters  This monster cannot be used as a Fusion Material Monster. You can only Special Summon this card from your Extra Deck by sending the above cards from either side of the field to the Graveyard. (You do not use 'Polymerization'.) The orignal ATK of this card is equal to 1000 x the number of Fusion Material Monsters used to Special Summon it.", "Limited", "JUMP-EN031", 0, 0, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (55171412, "", "", , "", 
+        "", "", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
+        edition, series, atk, def, effect, fusion, rarity, quantity)
     VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        "", "", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
+        edition, series, atk, def, effect, fusion, rarity, quantity)
     VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        "", "", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
+        edition, series, atk, def, effect, fusion, rarity, quantity)
     VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        "", "", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
+        edition, series, atk, def, effect, fusion, rarity, quantity)
     VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        "", "", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
+        edition, series, atk, def, effect, fusion, rarity, quantity)
     VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        "", "", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
+        edition, series, atk, def, effect, fusion, rarity, quantity)
     VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        "", "", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
+        edition, series, atk, def, effect, fusion, rarity, quantity)
     VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, fusion, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, 1);
+        "", "", "", , , 1, 1, "", 1);
 
