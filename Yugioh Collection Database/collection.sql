@@ -1,6 +1,6 @@
 /* Collection of cards currently owned.
-Created: 19/30/2017
-Last Updated: 30/5/2017
+Created: 5/19/2017
+Last Updated: 6/10/2017
 
 An instance of a card may contain the following attributes:
     
@@ -1129,41 +1129,164 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, fusion, rarity, quantity)
-    VALUES (55171412, "", "", , "", 
-        "", "", "", , , 1, 1, "", 1);
+    VALUES (55171412, "Elemental Hero Aqua Neos", "Water", 7, "Warrior", 
+        "'Elemental Hero Neos' + 'Neo-Spacian Aqua Dolphin'  This card can only be Special Summoned from your Fusion Deck by returning the above cards from your side of the field to the Deck. (You do not use 'Polymerization'.) Once per turn, by discarding 1 card from your hand, select 1 random card from your opponent's hand and destroy it. This card returns to the Fusion Deck during the End Phase.", "Unlimited", "POTD-EN031", 2500, 2000, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, fusion, rarity, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, "", 1);
+    VALUES (74157028, "Cyber Twin Dragon", "Light", 8, "Machine", 
+        "'Cyber Dragon' + 'Cyber Dragon'  A Fusion Summon of this card can only be done with the above Fusion Material Monsters. This card can make a second attack during each Battle Phase.", "1st", "SDCR-EN037", 2800, 2100, 1, 1, "Ultra", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, fusion, rarity, quantity)
+    VALUES (23995346, "Blue-Eyes Ultimate Dragon", "Light", 12, "Dragon", 
+        "'Blue-Eyes White Dragon' + 'Blue-Eyes White Dragon' + 'Blue-Eyes White Dragon'", "Limited", "JMP-EN005", 4500, 3800, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, fusion, rarity, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, "", 1);
+    VALUES (40854197, "Elemental Hero Absolute Zero", "Water", 8, "Warrior", 
+        "1 'Elemental Hero', 'Destiny Hero', or 'Evil Hero' monster + 1 Water monster  This mosnter cannot be Special SUmmoned except by Fusion Summon. This card gains 500 ATK for each face-up Water monster on the field, except 'Elemental Hero Absolute Zero'. When this card is removed from the field, destroy all monsters your opponent controls.", "Limited", "YG04-EN001", 2500, 2000, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, fusion, rarity, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, "", 1);
+    VALUES (95486586, "Elemental HERO Core", "Earth", 9, "Warrior", 
+        "3 'Elemental HERO' monsters   Must be fusion Summoned and cannot be Special Summoned by other ways. Once per turn, when this card is targeted for an attack: You can make this card's ATK become double its current ATK until the end of the Damage Step. At the end of the Battle Phase, if this card attacked or was attacked: You can target 1 monster on the field; destroy it. When this card is destroyed by battle or card effect: You can target 1 Level 8 or lower 'Elemental HERO' Fusion Monster in your Graveyard; Special Summon it, ignoring its Summoning conditions.", "Limited", "JUMP-EN071", 2700, 2200, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, fusion, rarity, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, "", 1);
+    VALUES (74711057, "Elemental HERO Terra Firma", "Earth", 8, "Warrior", 
+        "'Elemental HERO Ocean' + 'Elemental HERO Woodman'  Must be Fusion Summoned and cannot be Special Summoned by other ways. You can Tribute 1 face-up 'Elemental Hero' monster, this card gains ATK equal to the Tributed monster's ATK, until the End Phase.", "1st", "LCGX-EN075", 2500aw
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (58481572, "Masked HERO Dark Law", "Dark", 6, "Warrior", 
+        "Must be Special Summoned with 'Mask Change' and cannot be Special Summoned by other ways. Any card sent to your opponent's Graveyard is banished instead. Once per turn, if your opponent adds a card(s) from their Deck to their hand (except during the Draw Phase or the Damage Step): You can banish 1 random card from your opponent's hand.", "1st", "SDHS-EN044", 2400, 1800, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, fusion, rarity, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, "", 1);
+    VALUES (22093873, "Masked HERO Divine Wind", "Wind", 8, "Warrior", 
+        "Must be Special Summoned with 'Mask Change' and cannot be Special Summoned by other ways. Cannot be destroyed by battle. Your opponent can attack with only 1 monster during each Battle PHase. When this card destroys an opponent's monster by battle and sends it to the Graveyard: You can draw 1 card.", "1st", "SDHS-EN043", 2700, 1900, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, fusion, rarity, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, "", 1);
+    VALUES (50608164, "Masked HERO Koga", "Light", 8, "Warrior", 
+        "Must be Special Summoned with 'Mask Change' and cannot be Special Summoned by other ways. This card gains 500 ATK for each monster your opponent controls. Once per turn, during either player's turn: You can banish 1 'HERO' monster from your Graveyard, then target 1 face-up monster on the field; that target loses ATK equal to the ATK of the monster banished to activate this effect.", "1st", "SDHS-EN042", 2500, 1800, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, fusion, rarity, quantity)
-    VALUES (, "", "", , "", 
-        "", "", "", , , 1, 1, "", 1);
+    VALUES (86676862, "Evil HERO Malicious Fiend", "Fire", 8, "Fiend", 
+        "'Evil HERO Malicious Edge' + 1 Level 6 or higher Fiend-Type monster  Must be Special Summoned with 'Dark Fusion' and cannot be Special Summoned by other ways. During your opponent's Battle Phase, all monsters they control are changed to face-up Attack Position, and each monster they control must attack this card, if able.", "Unlimited", "LCGX-EN072", 35000, 2100, 1, 1, "Super", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (28677304, "Elemental Hero  Dark Neos", "Dark", 7, "Warrior", 
+        "'Elemental Hero Neos' + 'Neo-Spacian Dark Panther'  This card can only be Special Summoned from your Fusion Deck by returning the above cards from your side of the field to the Deck. (You do not use 'Polymerization'.) You can select 1 face-up Effect Monster on the field if 1 is not already selected by this card. While you control this face-up card, the selected monster's effect is negated until it is removed from the field. (You can select up to 1 monster at a time with this effect.) This card returns to the Fusion Deck during the End Phase.", "Unlimited", "DP03-EN014", 2500, 2000, 1, 1, "Super", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, rarity, artwork, condition, quantity)
+    VALUES (01546123, "Cyber End Dragon", "Light", 10, "Machine", 
+        "'Cyber Dragon' + 'Cyber Dragon' + 'Cyber Dragon'  A Fusion Summon of this card can only be conducted with the above Fusion Material Monsters. During battle between this card and a Defense Position monster whose DEF is lower than the ATK of this card, inflict the difference as Battle Damage to your opponent's Life Points.", "Limited", "STON-ENSE1", 4000, 2800, 1, 1, "Super", "Alternate", "Damaged", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (90555947, "Naturia Gaiastrio", "Earth", 10, "Rock", 
+        "2 Earth Synchro Monsters  During either player's turn, when a card or effect is activated that targets exactly 1 card on the field (and no other cards): You can send 1 card from your hand to the Graveyard; negate the activation, and if you do, destroy that card.", "1st", "WSUP-EN033", 3200, 2100, 1, 1, "Super", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (10817524, "First of the Dragons", "Dark", 9, "Dragon", 
+        "2 Normal Monsters  Must be Fusion Summoned and cannot be Special Summoned by other ways. You can only control 1 'First of the Dragons'. This card cannot be destroyed by battle except by battle with a Normal Monster, and is unaffected by other monsters' effects.", "1st", "NECH-EN050", 2700, 2000, 1, 1, "Super", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (17412721, "Elder Entity Norden", "Water", 4, "Fairy", 
+        "1 Synchro or Xyz + 1 Synchro or Xyz Monster  When this card is Special Summoned: You can target 1 Level 4 or lower monster in your Graveyard; Special Summon it, but its effects are negated, also banish it when this card leaves the field.", "Limited", "CT12-EN003", 2000, 2200, 1, 1, "Super", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (62873545, "Dragon Master Knight", "Light", 12, "Dragon", 
+        "'Black Luster Soldier' + 'Blue-Eyes Ultimate Dragon'  Must be Fusion Summoned and cannot be Special Summoned by other ways. This card gains 500 ATK for each face-up Dragon-Type monster you control, except this card.", "1st", "LCYW-EN050", 5000, 5000, 1, 1, "Super", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (01546123, "Cyber End Dragon", "Light", 10, "Machine", 
+        "'Cyber Dragon' + 'Cyber Dragon' + 'Cyber Dragon'  A Fusion Summon of this card can only be conducted with the above Fusion Material Monsters. During battle between this card and a Defense Position monster whose DEF is lower than the ATK of this card, inflict the difference as Battle Damage to your opponent's Life Points.", "1st", "DP04-EN012", 4000, 2800, 1, 1, "Rare", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, effect, fusion, rarity, quantity)
+    VALUES (64599569, "Chimeratech Overdragon", "Dark", 9, "Machine", 
+        "'Cyber Dragon' + 1 or more Machine-Type monsters  This monster cannot be Special Summoned except by Fusion Summon. When this card is Fusion Summoned, send all other cards you control to the Graveyard. THe original ATK and DEF of this card are each 800 x the number of Fusion Material Monsters used for its Fusion Summon. Each turn this card can attack as many of your opponent's monsters as the number of Fusion Material Monsters used for its Fusion Summon.", "1st", "DP04-EN012", 1, 1, "Rare", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, fusion, rarity, quantity)
+    VALUES (54541900, "Karbonala Warrior", "Earth", 4, "Warrior", 
+        "'M-Warrior #1' + 'M-Warrior #2'", "Unlimited", "LOB-067", 1500, 1200, 1, "Rare", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, fusion, rarity, quantity)
+    VALUES (01641882, "Fusionist", "Earth", 3, "Beast", 
+        "'Petit Angel' + 'Mystical Sheep #2'", "Unlimited", "LOB-022", 900, 700, 1, "Rare", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, fusion, rarity, quantity)
+    VALUES (33574806, "Elemental HERO Escuridao", "Dark", 8, "Warrior", 
+        "1 'Elemental HERO' mosnter + 1 Dark monster  Must be Fusion Summoned and cannot be Special Summoned by other ways. This card gains 100 ATK for each 'Elemental HERO' monster in your Graveyard.", "1st", "SP13-EN046", 2500, 2000, 1, 1, "Rare", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, ritual, rarity, quantity)
+    VALUES (88240999, "Nekroz of Decisive Armor", "Water", 10, "Dragon", 
+        "You can Ritual Summon this card with any 'Nekroz' Ritual Spell Card. Must be Ritual Summoned without using any Level 10 monsters, and cannot be Special Summoned by other ways. You can only use each of these effects of 'Nekroz of Decisive Armor' once per turn.  - During either player's turn: You can discard this card, then target 1 'Nekroz' monster you control; it gains 1000 ATK and DEF until the end of this turn.  - You can target 1 Set Card your opponent controls; destroy it, and if you do, banish it.", "1st", "THSF-EN019", 3300, 2300, 1, 1, "Secret", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, ritual, rarity, quantity)
+    VALUES (52846880, "Nekroz of Catastor", "Water", 5, "Dragon", 
+        "You can Ritual Summon this card with any 'Nekroz' Ritual Spell Card. Must be Ritual Summoned and cannot be Special Summoned by other ways. You can discard this card, then target 1 'Nekroz' monster in your Graveyard; Special Summon it. You can only use this effect of 'Nekroz of Catastor' once per turn. At the start of the Damage Step, if a 'Nekroz' monster you control battles an opponent's face-up monster that was Special Summoned from the Extra Deck: Destroy that monster.", "1st", "THSF-EN018", 2200, 1200, 1, 1, "Secret", 1);
+
+INSERT INTO Cards (id, name, attribute, type, description,
+        edition, series, rarity, quantity)
+    VALUES (99185129, "Nekroz of Clausolas", "Water", 3, "Warrior", 
+        "You can Ritual Summon this card with any 'Nekroz' Ritual Spell Card. Must be Ritual Summoned and cannot be Special Summoned by other ways. You can only use each of these effects of 'Nekroz of Clausolas' once per turn.  - You can discard this card; add 1 'Nekroz' Spell/Trap Card from your Deck to your hand.  - During either player's turn: You can target 1 face-up monster on the field that was Special Summoned from the Extra Deck; until the end of this turn, that target's ATK becomes 0, also that target's effects are negated.", "1st", "THSF-EN013", 1200, 2300, 1, 1, "Secret", 1);
+
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+        rarity, quantity)
+    VALUES (51124303, "Nekroz Kaleidoscope", "Spell", "Ritual", 
+        "This card can be used to Ritual Summon any number of 'Nekroz' Ritual Monsters. Tribute 1 monster from your hand or field, or send 1 monster from your Extra Deck to the Graveyard, also after that, Ritual Summon any number of 'Nekroz' monsters whose total Levels exactly equal the Level of that monster. You can only use this effect of 'Nekroz Kaleidoscope' once per turn. If you control no monsters: You can banish thsi card and 1 'Nekroz' monster from your Graveyard; add 1 'Nekroz' Spell Card from your Deck to your hand.", "1st", "THSF-EN021", "Secret", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, ritual, rarity, quantity)
+    VALUES (71408082, "Paladin of Dark Dragon", "Dark", 4, "Dragon", 
+        "You can Ritual Summon this card with 'Dark Dragon Ritual'. At the start of the Damage Step, if this card attacks a Defense Position monster: Destroy that monster. You can Tribute this card; Special Summon 1 'Red-Eyes' monster from your hand or Deck, except 'Red-Eyes B. Chick'. You can only use this effect of 'Paladin of Dark Dragon' once per turn.", "1st", "DRL2-EN018", 1900, 1200, 1, 1, "Secret", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, ritual, rarity, quantity)
+    VALUES (19025379, "Lord of the Red", "Fire", 8, "Dragon", 
+        "You can Ritual Summon this card with 'Red-Eyes Transmigration'. Once per turn, during either player's turn, when a card or effect is activated, except 'Lord of the Red': You can target 1 monster on the field; destroy it. Once per turn, during either player's turn, when a card or effect is activated, except 'Lord of the Red': You can target ` Spell/Trap Card on the field; destroy it.", "1st", "DRL2-EN016", 2400, 2100, 1, 1, "Secret", 1);
+
+INSERT INTO Cards (name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, ritual, rarity, condition, quantity)
+    VALUES ("Black Luster Soldier", "Earth", 8, "Warrior", 
+        "This monster can only be Ritual Summoned with the Ritual Spell Card, 'Black Luster Ritual'. You must also offer monsters whose total Level Stars equal 8 or more as a Tribute from the field or your hand.", "Unlimited", "SYE-024", 3000, 2500, 1, 1, "Ultra", "Played", 4);
+
+INSERT INTO Cards (name, attribute, type, description, edition, series, rarity,
+        quantity)
+    VALUES ("Black Luster Ritual", "Spell", "Ritual", 
+        "This card is used to Ritual Summon 'Black Luster Soldier'. You must also offer monsters whose total Level Stars equal 8 or more as a Tribute from the field or your hand.", "Unlimited", "SYE-025", "Super", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, ritual, rarity, quantity)
+    VALUES (97642679, "Dark Master - Zorc", "Dark", 8, "Fiend", 
+        "This card can only be Ritual Summoned with the Ritual Spell Card, 'Contract with the Dark Master'. You must also offer monsters whose total Level Stars equal 8 or more as a Tribute from the field or your hand. During your turn you can roll 1 six-sided die. If the result is 1 or 2, destroy all monsters on your opponent's side of the field. If the result is 3, 4, or 5, destroy 1 monster on your opponent's side of the field. If the result is 6, destroy all monsters on your side of the field.", "1st", "DCR-082", 2700, 1500, 1, 1, "Super", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, ritual, rarity, quantity)
+    VALUES (85346853, "Paladin of Photon Dragon", "Light", 4, "Warrior", 
+        "You can Ritual Summon this card with 'Luminous Dragon Ritual'. You can Tribute this card; Special Summon 1 'Galaxy-Eyes Photon Dragon' from your hand or Deck. When this card destroys an opponent's monster by battle and sends it to teh Graveyard: Draw 1 card.", "1st", "LVAL-EN045", 1900, 800, 1, 1, "Rare", 1);
+
+INSERT INTO Cards (name, attribute, type, description, edition, series, rarity,
+        quantity)
+    VALUES ("Luminous Dragon Ritual", "Spell", "Ritual", 
+        "This card is used to Ritual Summon 'Paladin of Photon Dragon'. You must also Tribute monsters from your hand or field whose total Levels equal exactly 4. You can banish this card from your Graveyard, banish monsters from your Graveyard whose total Levels equal exactly 4, and Special Summon 1 'Paladin of Photon Dragon' from your hand after that. (This Special Summon is treated as a Ritual Summon.)", "1st", "LVAL-EN062", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, ritual, rarity, condition, quantity)
+    VALUES (60258960, "Legendary Flame Lord", "Fire", 7, "Spellcaster", 
+        "", "1st", "", , , 1, 1, "Damaged", 1);
 
