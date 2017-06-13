@@ -215,17 +215,7 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
     VALUES (NULL, "Jurraegg Token", "Earth", 1, "Dinosaur", 
         "This card can be used as a 'Jurraegg Token'. *If used for another Token, apply that Token's Type/Attribute/Level/ATK/DEF.", "1st", "SR04-ENTKN", 0, 0, 3);
 
-/* Other cards */
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, quantity)
-    VALUES (11012887, "Jurrac Guaiba", "Fire", 4, "Dinosaur", 
-        "If this card destroys an opponenet's monster by battle, you can SPecial Summon 1 'Jurrac' monster with 1700 or less ATK from your Deck. It cannot declare an atack this turn.", "Duel Terminal", "DT03-EN068", 1700, 400, 1, 3);
-
-INSERT INTO Cards (id, name, attribute, type, description, edition, series,
-        rarity, quantity)
-    VALUES (40450317, "Ties of the Bretheren", "Spell", "Normal", 
-        "Pay 2000 LP, then target 1 Level 4 or lower monster you control; for the rest of this turn after this card resolves, you cannot Special Summon monsters, also Special Summon 2 monsters from yoru Deck, with the same Type, Attribute, and Level as the mosnter, but with different names from each other and that monster. You cannot conduct your Battle Phase the turn you acitvate this card.", "1st", "LDK2-ENY02", "Ultra", 2);
+/* First Binder */
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, synchro, rarity, quantity)
@@ -1288,5 +1278,484 @@ INSERT INTO Cards (name, attribute, type, description, edition, series, rarity,
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, ritual, rarity, condition, quantity)
     VALUES (60258960, "Legendary Flame Lord", "Fire", 7, "Spellcaster", 
-        "", "1st", "", , , 1, 1, "Damaged", 1);
+        "This card can only be Ritual Summoned with the Ritual Spell Card 'Incandescent Ordeal'. You must also offer monsters whose total Level Stars equal 7 or more as a Tribute from the field or your hand. Each time you or your opponent activates 1 Spell Card, put 1 Spell Counter on this card. Remove 3 Spell Counters from this card to destroy all monsters on the field except this card.", "1st", "DCR-081", 2400, 200, 1, 1, "Damaged", 1);
 
+/* Number Binder */W D D 
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (69757518, "Number C5: Chaos Chimera Dragon", "Dark", 6, "Dragon", 
+        "3 or more Level 6 monsters  This card gains 1000 ATK for each Xyz material attached to it. If this card attacks, at the end of the Damage Step: You can detach 1 Xyz Material from this card; this card can attack an opponent's monster again in a row. At the end of the Battle Phase: You can pay half your Life Points, then target 2 cards in any Graveyard(s); place 1 of them on the top of the Deck, and if you do, attach the other to this card as an Xyz Material.", "1st", "DRLG-EN043", 0, 0, 1, 1, "Super", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (06387204, "Number C6: Chronomaly Chaos Atlandis", "Light", 7,  
+        "Machine", "3 Level 7 monsters  If you activate any of this card's effects, your opponent takes no further damage this turn. Once per turn: You can target 1 monster your opponent controls; equip that target to this card as an Equip Spell Card whose effect makes this monster gain 1000 ATK. If this card has 'Number 6: Chronomaly Atlandis' as an Xyz Material, it gains this effect.  - You can detach 3 Xyz Materials from this card and send all 'Number' monsters equipped by this card's effect to the Graveyard (min. 1): make your opponent's Life Points 100.", "1st", "PGLD-EN018", 3300, 3300, 1, 1, "Gold", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (32559361, "Number C9: Chaos Dyson Sphere", "Light", 10, "Machine", 
+        "3 Level 10 monsters  At the start of the Damage Step, if this card battles an opponent's monster: You can attach that monster to this card as a face-up Xyz Material. Once per turn: You can inflict 300 damage to your opponent for each Xyz Material attached to this card. If this card has 'Number 9: Dyson Sphere' as an Xyz Material, it gains this effect.  - Once per turn: You can detach any number of Xyz Materials from this card; inflict 800 damage to your opponent for each.", "1st", "PGLD-EN022", 3600, 3200, 1, 1, "Gold", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (80117527, "Number 11: Big Eye", "Dark", 7, "Spellcaster", 
+        "2 Level 7 monsters  Once per turn: You can detach 1 Xyz Material from this card to target 1 monster your opponent controls; take control of that monster. This card cannot attack the turn you activate this effect.", "Unlimited", "GAOV-EN090", 2600, 2000, 1, 1, "Secret", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (19333131, "Number 12: Crimson Shadow Armor Ninja", "Earth", 5,
+        "Warrior", "2 Level 5 monsters  Once per turn, during either player's turn: You can detach 1 Xyz Material from this card; this turn, face-up 'Ninja' monsters you control cannot be destroyed by battle or by card effects.", "1st", "ORCS-EN042", 2400, 1700, 1, 1, "Ultimate", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (69058960, "Number 13: Embodiment of Crime", "Dark", 1, "Fiend", 
+        "2 Level 1 monsters  Once per turn, during either player's turn: You can detach 1 Xyz Material from this card; change all monster your opponent controls to face-up Attack Position, also all monsters your opponent currently controls must attack this card this turn, if able. While you control 'Number 31: Embodiment of Punishment', this card gains the following effects.  - This card cannot be destroyed by battle or by card effects while it has Xyz Material.  - Your opponent takes any battle damage you would have taken from attacks on this card.", "1st", "PGLD-EN023", 500, 500, 1, 1, "Gold", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (21313376, "Number 14: Greedy Sarameya", "Dark", 5, "Beast", 
+        "2 Level 5 monsters  Your opponent takes any effect damage you would have taken from their card effects, instead. When this card destroys an opponent's monster by battle and sends it to the Graveyard: You can detach 1 Xyz Material from this card; destroy all monsters on the field whose current ATK is less than or equal to the original ATK of the destroyed monster in the Graveyard.", "1st", "PGL2-EN017", 2500, 1500, 1, 1, "Gold", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (33776844, "Number C15: Gimmick Puppet Giant Hunter", "Dark", 9,
+        "Machine", "3 Level 9 monsters  Once per turn: You can detach 1 Xyz Material from this card, then target 1 card your opponent controls, destroy it, and if you do, and it was a monster, inflict damage to your opponent equal to it's original ATK.", "1st", "PGLD-EN019", 2500, 1500, 1, 1, "Gold", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (54719828, "Number 16: Shock Master", "Light", 4, "Fairy", 
+        "3 Level 4 monsters  Once per turn: You can detach 1 Xyz Material from this card to declare 1 card type (Monster, Spell, Trap); that type of card (if Spell or Trap) cannot be activated, or (if Monster) cannot activate its effects, until the end of your opponent's next turn.", "Limited", "CT09-EN014", 2300, 1600, 1, 1, "Super", 2);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number ", "", , "", 
+        "", "1st", "", , , 1, 1, "", 1);
+
+
+/* Second Binder */
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, quantity)
+    VALUES (11012887, "Jurrac Guaiba", "Fire", 4, "Dinosaur", 
+        "If this card destroys an opponenet's monster by battle, you can SPecial Summon 1 'Jurrac' monster with 1700 or less ATK from your Deck. It cannot declare an atack this turn.", "Duel Terminal", "DT03-EN068", 1700, 400, 1, 3);
+
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,
+        rarity, quantity)
+    VALUES (40450317, "Ties of the Bretheren", "Spell", "Normal", 
+        "Pay 2000 LP, then target 1 Level 4 or lower monster you control; for the rest of this turn after this card resolves, you cannot Special Summon monsters, also Special Summon 2 monsters from yoru Deck, with the same Type, Attribute, and Level as the mosnter, but with different names from each other and that monster. You cannot conduct your Battle Phase the turn you acitvate this card.", "1st", "LDK2-ENY02", "Ultra", 2);
