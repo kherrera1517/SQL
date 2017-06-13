@@ -1329,57 +1329,57 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 17:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 19:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 20:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 21:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 22:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 23:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 25:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 30:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 31:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 32:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 34:", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
