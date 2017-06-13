@@ -1384,57 +1384,57 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 39: Utopia Roots", "", , "", 
+        "", "1st", "", , , 1, 1, "Ultimate", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number 39: Utopia Roots", "", , "", 
+        "", "1st", "", , , 1, 1, "Rare", 1);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number 39: Utopia", "", , "", 
+        "", "1st", "", , , 1, 1, "Ultra", 2);
+
+INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
+        edition, series, atk, def, effect, xyz, rarity, quantity)
+    VALUES (, "Number S39: Utopia the Lightning", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 39: Utopia Beyond", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 40: Gimmick Puppet of Strings", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 42: Galaxy Tomahawk", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 43: Manipulator of Souls", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number C43: High Manipulator of Chaos", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 44: Sky Pegasus", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
-
-INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number ", "", , "", 
+    VALUES (, "Number 46: Dragluon", "", , "", 
         "", "1st", "", , , 1, 1, "", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
