@@ -1328,74 +1328,74 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         "3 Level 4 monsters  Once per turn: You can detach 1 Xyz Material from this card to declare 1 card type (Monster, Spell, Trap); that type of card (if Spell or Trap) cannot be activated, or (if Monster) cannot activate its effects, until the end of your opponent's next turn.", "Limited", "CT09-EN014", 2300, 1600, 1, 1, "Super", 2);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 17:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+        edition, series, atk, def, effect, xyz, quantity)
+    VALUES (69610924, "Number 17: Leviathan Dragon", "Water", 3, "Dragon", 
+        "2 Level 3 monsters  Once per turn: You can detach 1 Xyz Material from this card; this card gains 500 ATK. If this card has no Xyz Material, it cannot attack your opponent directly.", "1st", "BP01-EN027", 2000, 0, 1, 1, 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 19:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (, "Number 19: Freezadon", "Water", 5, "Dinosaur", 
+        "2 Level 5 monsters  Once per turn, if an Xyz Monster you control would activate an effect by detaching an Xyz Material(s), you can detach 1 Xyz Material from this card instead of 1 of those Xyz Materials.", "1st", "ZTIN-EN003", 2000, 2500, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 20:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (47805931, "Number 20: Giga-Brilliant", "Light", 3, "Insect", 
+        "2 Level 3 monsters  Once per turn: You can detach 1 Xyz Material from this card; all face-up monsters you currently control gain 300 ATK.", "Limited", "ZTIN-ENV02", 1800, 1800, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 21:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (57707471, "Number 21: Frozen Lady Justice", "Water", 6, "Aqua", 
+        "2 Level 6 monsters  You can also Xyz Summon this card by detaching 1 Xyz Material from a Rank 5 Xyz Monster you control, then using that Xyz Monster as the Xyz Material. (Xyz Materials attached to that monster also become Xyz Materials on this card.) This card gains 1000 ATK for each Xyz Material attached to it. Once per turn: You can detach 1 Xyz Material from this card; destroy all Defense Position monsters your opponent controls.", "1st", "PGL2-EN018", 500, 500, 1, 1, "Gold", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 22:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (73445448, "Number 22: Zombiestein", "Dark", 8, "Zombie", 
+        "2 Level 8 Dark monsters  Must be Xyz Summoned and cannot be Special Summoned by other ways. Once per turn, during either player's turn: You can detach 1 Xyz Material from this card and send 1 card from your hand to the Graveyard to target 1 face-up card your opponent controls; change that card to Defense Position, and if you do, negate that face-up card's effect until the End Phase.", "Limited", "YZ03-EN001", 4500, 1000, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 23:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (, "Number 23: Lancelot, Dark Knight of the Underworld", "Dark", 8,
+        "Zombie", "2 Level 8 monsters  This card can attack your opponent directly while it has Xyz Material. When this card inflicts battle damage to your opponent.: You can target 1 face-up monster your opponent controls; destroy it. Once per turn, during either player's turn, when a Spell/Trap Card, or another monster's effect, is activated: Detach 1 Xyz Material from this card; negate the activation.", "Limited", "YZ07-EN001", 2000, 1500, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 25:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (64554883, "Number 25: Force Focus", "Light", 6, "Machine", 
+        "2 Level 6 monsters  Once per turn, during either player's turn: You can detach 1 Xyz Material from this card to target 1 face-up Level 5 or higher Effect Monster your opponent controls; negate the effects of that opponent's face-up monster, until the end of the turn.", "Unlimited", "GAOV-EN045", 2800, 2400, 1, 1, "Ultra", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 30:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (81330115, "Number 30: Acid Golem of Destruction", "Water", 3,
+        "Rock", "2 Level 3 monsters  During your Standby Phase: Detach 1 Xyz Material from this card or take 2000 damage. You cannot Special Summon any monsters. WHile this card has no Xyz Materials, it cannot attack.", "Limted", "REDU-ENSE2", 3000, 3000, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 31:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (95442074, "Number 31: Embodiment of Punishment", "Dark", 1, "Fiend",
+        "2 Level 1 monsters  Once per turn, during either player's turn: You can detach 1 Xyz Material from this card; change all monsters your opponent controls to face-up Attack Position, also all monsters your opponent currently controls must attack this card this turn, if able. While you control 'Number 13: Embodiment of Crime', this card gains these effects.  - This card cannot be destroyed by battle or by card effects while it has Xyz Material.  - Your opponent takes any battle damage you would have taken from attacks on this card.", "1st", "PGLD-EN024", 500, 500, 1, 1, "Gold", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 32:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (65676461, "Number 32: Shark Drake", "Water", 4, "Sea Serpent", 
+        "3 Level 4 monsters  Once per turn, when this attacking card destroys an opponent's monster by battle and sends it to the Graveyard: You can detach 1 Xyz Material from this card; Special Summon the destroyed monster to your opponent's side of the field in face-up Attack Position, also it loses 1000 ATK, and if you do Summon this way, this card can make a second attack during this Battle Phase.", "1st", "PGLD-EN044", 2800, 2100, 1, 1, "Gold", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 34:", "", , "", 
-        "", "1st", "", , , 1, 1, "", 1);
+    VALUES (32003338, "Number 34: Terror-Byte", "Dark", 3, "Machine", 
+        "3 Level 3 monsters  Once per turn: You can detach 1 Xyz Material from this card to target 1 Level 4 or lower face-up Attack Position monster your opponent controls; gain control of it until the End Phase.", "Limited", "PRC1-ENV02", 0, 2900, 1, 1, "Secret", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 39: Utopia Roots", "", , "", 
-        "", "1st", "", , , 1, 1, "Ultimate", 1);
+    VALUES (84124261, "Number 39: Utopia Roots", "Light", 1, "Warrior", 
+        "2 Level 1 monsters  When any player's monster declares an attack: You can detach 1 Xyz Material from this card; negate the attakc and if you negated an Xyz Monster's attack, this card gains ATK, equal to that monster's Rank x 500.", "1st", "LVAL-EN048", 500, 100, 1, 1, "Ultimate", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 39: Utopia Roots", "", , "", 
-        "", "1st", "", , , 1, 1, "Rare", 1);
+    VALUES (84124261, "Number 39: Utopia Roots", "Light", 1, "Warrior", 
+        "2 Level 1 monsters  When any player's monster declares an attack: You can detach 1 Xyz Material from this card; negate the attakc and if you negated an Xyz Monster's attack, this card gains ATK, equal to that monster's Rank x 500.", "1st", "LVAL-EN048", 500, 100, 1, 1, "Rare", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Number 39: Utopia", "", , "", 
-        "", "1st", "", , , 1, 1, "Ultra", 2);
+    VALUES (84013237, "Number 39: Utopia", "Light", 4, "Warrior", 
+        "2 Level 4 monsters  When any player's monster declares an attack: You can detach 1 Xyz Material from this card; negate the attack. When this card is targeted for an attack, while it has no Xyz Materials: Destroy this card.", "1st", "YS11-EN041", 2500, 2000, 1, 1, "Ultra", 2);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
