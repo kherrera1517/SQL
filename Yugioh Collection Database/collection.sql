@@ -62,14 +62,13 @@ INSERT INTO Cards (id, name, attribute, type, description, edition, series,
         rarity, quantity)
     VALUES (17228908, "Lost World", "Spell", "Field",
         "All monsters on the field lose 500 ATK and DEF, except Dinosaur-Type monsters. Once per turn, if a Dinosaur-Type monster is Normal or Special Summoned (except during the Damage Step): You can Special Summon 1 'Jurraegg Token' (Dinosaur-Type/Earth/Level 1/ATK 0/DEF 0) to you opponent's field in Defense Position. While your opponent controals a Token, they cannot target monsters on the field with card effects, except Tokens. Once per turn, if a Normal Monster(s) on the field would be destroyed by battle or card effect, you can destroy that many Dinosaur-Type monsters in your hand and/or Deck instead.", "1st", "SR04-EN021", "Super", 3);
-INSERT INTO Cards (id, name, attribute, type, description, edition, series,
-        quantity)
+INSERT INTO Cards (id, name, attribute, type, description, edition, series,             rarity, quantity)
     VALUES (44612603, "Survival's End", "Trap", "Normal",
         "Destroy as many Normal Monsters on the field as possible, and if you do, Special Summon Level 4 or lower Dinosaur-Type monsters from your Deck, up to the number of destroyed, but destroy them during the End Phase. You can banish this card from your graveyard, then target 1 Dinosaur-Type monster you control and 1 card your opponent controls; destroy them.", "1st", "SR04-EN030", "Super", 3);
 
 /* Next are the monsters */
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
-        edition, series, atk, def, effect, rarity, quantity)
+        edition, series, atk, def, effect, quantity)
     VALUES (81823360, "Megalosmasher X", "Water", 4, "Dinosaur",
         "With its sound-baffling armor and gargantuan jaws, this primeval predator's phosphorescence was the only possible pardon for its primitive prey.", "1st", "SR04-EN003", 2000, 0, 1, 6);
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
@@ -265,7 +264,7 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, synchro, rarity, condition, quantity)
     VALUES (06021033, "Doomkaiser Dragon", "Earth", 6, "Zombie",
-        "Plaguespreader Zombie + 1 more non-Tuner Zombie-Type monsters  When this card is Special Summoned, you can select 1 Zombie-Type monster in your opponent's Graveyard and Special Summon it to your side of the field in Attack Position. Destroy it when this card is removed from the field.", "Unlimited", "CSOC-EN043", 2800, 2000, 1, 1, "Slightly Played", 1);
+        "Plaguespreader Zombie + 1 more non-Tuner Zombie-Type monsters  When this card is Special Summoned, you can select 1 Zombie-Type monster in your opponent's Graveyard and Special Summon it to your side of the field in Attack Position. Destroy it when this card is removed from the field.", "Unlimited", "CSOC-EN043", 2800, 2000, 1, 1, "Unlimited", "Slightly Played", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, synchro, rarity, quantity)
@@ -520,7 +519,7 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, synchro, rarity, quantity)
     VALUES (29143726, "Samsara, Dragon of Rebirth", "Dark", 5, "Dragon", 
-        "1 Tuner + 1 or more non-Tuner monsters  If this card is destroyed by battle and sent to the Graveyard, or if this card you control is sent to your Graveyard by your opponent's card effect: You can target 1 monster in either player's Graveyard except 'Samsara, Dragon of Rebirth'; Special Summon it. You can only use this effect of 'Samsara, Dragon of Rebirth' once per turn.", "", "", , , 1, 1, "Super", 1);
+        "1 Tuner + 1 or more non-Tuner monsters  If this card is destroyed by battle and sent to the Graveyard, or if this card you control is sent to your Graveyard by your opponent's card effect: You can target 1 monster in either player's Graveyard except 'Samsara, Dragon of Rebirth'; Special Summon it. You can only use this effect of 'Samsara, Dragon of Rebirth' once per turn.", "1st", "DUEA-EN052", 100, 2600, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, synchro, rarity, quantity)
@@ -929,7 +928,7 @@ INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
         edition, series, atk, def, effect, xyz, rarity, quantity)
-    VALUES (, "Grenosaurus", "", 3, "", 
+    VALUES (47506081, "Grenosaurus", "Fire", 3, "Dinosaur", 
         "2 Level 3 monsters  When this card destroys an opponent's monster by battle and sends it to the Graveyard: You can detach 1 Xyz Material from this card; inflict 1000 damage to your opponent.", "1st", "YS11-EN043", 2000, 1900, 1, 1, "Super", 1);
 
 INSERT INTO Cards (id, name, attribute, level_rank_link, type, description,
